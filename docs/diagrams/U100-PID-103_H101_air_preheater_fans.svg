@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 1188" width="420mm" height="297mm">
+<style>
+ text{font-family:Arial,Helvetica,sans-serif;fill:#111}
+ .t8{font-size:8px}.t9{font-size:9px}.t10{font-size:10px}.t11{font-size:11px}.t12{font-size:12px}
+ .t14{font-size:14px}.t16{font-size:16px}.t20{font-size:20px}.b{font-weight:bold}.i{font-style:italic}
+ .proc{stroke:#000;stroke-width:2.4;fill:none}
+ .fuel{stroke:#000;stroke-width:1.8;fill:none}
+ .util{stroke:#000;stroke-width:1.4;fill:none}
+ .flue{stroke:#666;stroke-width:1.6;fill:none;stroke-dasharray:10 4}
+ .sig{stroke:#000;stroke-width:1;fill:none;stroke-dasharray:6 3}
+ .thin{stroke:#000;stroke-width:1;fill:none}
+ .eq{stroke:#000;stroke-width:2;fill:#fff}
+ .refr{stroke:#000;stroke-width:2;fill:#f3efe9}
+ .box{stroke:#000;stroke-width:1;fill:#fff}
+ .grid{stroke:#999;stroke-width:.6}
+ .flame{stroke:#c0392b;stroke-width:1.4;fill:#f9d6c4}
+ .tube{stroke:#333;stroke-width:1;fill:#fff}
+ .hdr{fill:#e6eef4}
+ .red{fill:#b03a2e}
+</style>
+<defs>
+ <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+  <path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+ <marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+  <path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#fff"/><rect x="10" y="10" width="1660" height="1168" rx="0" class="thin"/>
+<rect x="16" y="16" width="1648" height="1156" rx="0" class="thin"/>
+<rect x="1110" y="1012" width="554" height="160" rx="0" class="box"/>
+<text x="1122" y="1040" class="t12 b" text-anchor="start">DEMO REFINERY — UNIT 100 CRUDE DISTILLATION</text>
+<text x="1122" y="1064" class="t14 b" text-anchor="start">P&amp;ID — H-101 AIR PREHEATER, FD / ID FANS &amp; DUCTS</text>
+<text x="1122" y="1088" class="t11" text-anchor="start">Drawing No. U100-PID-103     Rev B     Sheet 3 of 3</text>
+<text x="1122" y="1108" class="t11 b red" text-anchor="start">Status: PRELIMINARY — FOR REVIEW (not for construction)</text>
+<text x="1122" y="1128" class="t9" text-anchor="start">Basis: design/heater_design_reference.md, design/tag_register.csv</text>
+<text x="1122" y="1142" class="t9" text-anchor="start">Proposal §5 design basis (ASSUMED values, pending ChemE review)</text>
+<text x="1122" y="1158" class="t9" text-anchor="start">Date 2026-11-20   |   Synthetic demo project — fictional plant</text>
+<polyline points="1110,1048 1664,1048" class="grid"/>
+<polyline points="1110,1072 1664,1072" class="grid"/>
+<polyline points="1110,1094 1664,1094" class="grid"/>
+<polyline points="1110,1114 1664,1114" class="grid"/>
+<text x="30" y="40" class="t16 b" text-anchor="start">P&amp;ID U100-PID-103 — H-101 REGENERATIVE AIR PREHEATER, FD / ID FANS, DUCTS &amp; DAMPERS</text>
+<rect x="700" y="300" width="240" height="300" rx="0" class="eq"/>
+<polyline points="820.0,300 820.0,600" class="thin"/>
+<polyline points="704,330.0 936,320.0" class="grid"/>
+<polyline points="704,360.0 936,350.0" class="grid"/>
+<polyline points="704,390.0 936,380.0" class="grid"/>
+<polyline points="704,420.0 936,410.0" class="grid"/>
+<polyline points="704,450.0 936,440.0" class="grid"/>
+<polyline points="704,480.0 936,470.0" class="grid"/>
+<polyline points="704,510.0 936,500.0" class="grid"/>
+<polyline points="704,540.0 936,530.0" class="grid"/>
+<polyline points="704,570.0 936,560.0" class="grid"/>
+<rect x="694" y="328" width="252" height="244" rx="0" class="thin"/>
+<text x="760.0" y="314" class="t8 b" text-anchor="middle">AIR</text>
+<text x="880.0" y="314" class="t8 b" text-anchor="middle">GAS</text>
+<text x="820.0" y="622" class="t11 b" text-anchor="middle">E-102 REGENERATIVE AIR PREHEATER (Ljungström)</text>
+<text x="820.0" y="636" class="t9" text-anchor="middle">duty ≈ 4.3 MW; seal leakage ≈ 6 % of air as new; vertical shaft, rotor ≈ 1 rpm</text>
+<circle cx="820.0" cy="260" r="16" class="box"/>
+<text x="820.0" y="264" class="t10 b" text-anchor="middle">M</text>
+<polyline points="820.0,276 820.0,300" class="thin"/>
+<text x="840.0" y="270" class="t8" text-anchor="start">drive</text>
+<rect x="801.0" y="181" width="38" height="38" rx="0" class="box"/>
+<polygon points="820.0,181 839.0,200 820.0,219 801.0,200" class="box"/>
+<polyline points="804.0,200 836.0,200" class="thin"/>
+<text x="820.0" y="196" class="t10 b" text-anchor="middle">XS</text>
+<text x="820.0" y="212" class="t10" text-anchor="middle">1349</text>
+<polyline points="820.0,219 820.0,244" class="sig"/>
+<text x="844.0" y="196" class="t8" text-anchor="start">rotor stop</text>
+<text x="844.0" y="206" class="t8" text-anchor="start">→ runback</text>
+<polygon points="1194,147.0 1370,147.0 1370,173.0 1194,173.0 1180,160" class="box"/>
+<text x="1198" y="159" class="t9 b" text-anchor="start">FROM CONVECTION OUTLET</text>
+<text x="1198" y="170" class="t8" text-anchor="start">U100-PID-102 (≈ 390 °C)</text>
+<polyline points="1180,160 880.0,160 880.0,300" class="flue" marker-end="url(#arg)"/>
+<text x="888.0" y="152" class="t9" text-anchor="start">flue duct (insulated)</text>
+<rect x="944" y="333" width="24" height="14" rx="0" class="box"/>
+<text x="974" y="344" class="t9 b" text-anchor="start">SB-102A</text>
+<rect x="944" y="553" width="24" height="14" rx="0" class="box"/>
+<text x="974" y="564" class="t9 b" text-anchor="start">SB-102B</text>
+<text x="974" y="358" class="t8" text-anchor="start">hot-end soot blower</text>
+<text x="974" y="578" class="t8" text-anchor="start">cold-end soot blower</text>
+<polyline points="956,333 956,240 1180,240" class="util"/>
+<polygon points="1194,227.0 1330,227.0 1330,253.0 1194,253.0 1180,240" class="box"/>
+<text x="1198" y="239" class="t9 b" text-anchor="start">LP STEAM</text>
+<text x="1198" y="250" class="t8" text-anchor="start">soot blowing, HS-1501</text>
+<polyline points="956,553 956,347" class="util"/>
+<circle cx="1040.0" cy="450.0" r="19" class="box"/>
+<polyline points="1024.0,450.0 1056.0,450.0" class="thin"/>
+<text x="1040.0" y="446.0" class="t10 b" text-anchor="middle">PDT</text>
+<text x="1040.0" y="462.0" class="t10" text-anchor="middle">1347</text>
+<polyline points="1021.0,442.0 910.0,310" class="thin"/>
+<polyline points="1021.0,458.0 910.0,590" class="thin"/>
+<text x="1066.0" y="454.0" class="t8" text-anchor="start">gas ΔP 80 mmH2O (Hi 120)</text>
+<polyline points="880.0,600 880.0,750 980.0,750" class="flue" marker-end="url(#arg)"/>
+<rect x="791.0" y="651" width="38" height="38" rx="0" class="box"/>
+<circle cx="810.0" cy="670" r="19" class="box"/>
+<polyline points="791.0,670 829.0,670" class="thin"/>
+<text x="810.0" y="666" class="t10 b" text-anchor="middle">TIC</text>
+<text x="810.0" y="682" class="t10" text-anchor="middle">1345</text>
+<polyline points="829.0,670 880.0,670" class="thin"/>
+<text x="784.0" y="674" class="t8" text-anchor="end">≈ 150 °C, LL 140</text>
+<circle cx="930.0" cy="700" r="19" class="box"/>
+<polyline points="914.0,700 946.0,700" class="thin"/>
+<text x="930.0" y="696" class="t10 b" text-anchor="middle">PT</text>
+<text x="930.0" y="712" class="t10" text-anchor="middle">1352</text>
+<polyline points="930.0,719 930.0,750" class="thin"/>
+<circle cx="1010.0" cy="750" r="22" class="box"/>
+<path d="M997.9,763.2 L1028.7,745.6 M997.9,736.8 L1028.7,754.4" class="thin"/>
+<text x="1010.0" y="792" class="t10 b" text-anchor="middle">K-102 ID FAN</text>
+<text x="1010.0" y="804" class="t8" text-anchor="middle">centrifugal, VFD; 40 kW abs. / 90 kW motor</text>
+<polyline points="1032.0,750 1420,750 1420,120 1410,120" class="flue" marker-end="url(#arg)"/>
+<polygon points="1254,107.0 1410,107.0 1410,133.0 1254,133.0 1240,120" class="box"/>
+<text x="1258" y="119" class="t9 b" text-anchor="start">TO STACK S-101</text>
+<text x="1258" y="130" class="t8" text-anchor="start">U100-PID-102 (≈ 155 °C)</text>
+<circle cx="980.0" cy="830" r="19" class="box"/>
+<polyline points="964.0,830 996.0,830" class="thin"/>
+<text x="980.0" y="826" class="t10 b" text-anchor="middle">SC</text>
+<text x="980.0" y="842" class="t10" text-anchor="middle">1351</text>
+<polyline points="988.0,813 1002.0,770" class="sig"/>
+<circle cx="1040.0" cy="830" r="19" class="box"/>
+<polyline points="1024.0,830 1056.0,830" class="thin"/>
+<text x="1040.0" y="826" class="t10 b" text-anchor="middle">SI</text>
+<text x="1040.0" y="842" class="t10" text-anchor="middle">1351</text>
+<circle cx="1090.0" cy="830" r="19" class="box"/>
+<polyline points="1074.0,830 1106.0,830" class="thin"/>
+<text x="1090.0" y="826" class="t10 b" text-anchor="middle">JI</text>
+<text x="1090.0" y="842" class="t10" text-anchor="middle">1351</text>
+<rect x="1121.0" y="811" width="38" height="38" rx="0" class="box"/>
+<polygon points="1140.0,811 1159.0,830 1140.0,849 1121.0,830" class="box"/>
+<polyline points="1124.0,830 1156.0,830" class="thin"/>
+<text x="1140.0" y="826" class="t10 b" text-anchor="middle">XS</text>
+<text x="1140.0" y="842" class="t10" text-anchor="middle">1351</text>
+<polygon points="800.0,817.0 946.0,817.0 960.0,830 946.0,843.0 800.0,843.0" class="box"/>
+<text x="806.0" y="829" class="t9 b" text-anchor="start">FROM PIC-1311</text>
+<text x="806.0" y="840" class="t8" text-anchor="start">arch draft, U100-PID-102</text>
+<polyline points="960.0,830 961.0,830" class="sig"/>
+<polygon points="30,737.0 176,737.0 190,750 176,763.0 30,763.0" class="box"/>
+<text x="36" y="749" class="t9 b" text-anchor="start">AMBIENT AIR</text>
+<text x="36" y="760" class="t8" text-anchor="start">via inlet filter / silencer</text>
+<polyline points="190,750 578.0,750" class="util" marker-end="url(#ar)"/>
+<circle cx="260" cy="700" r="19" class="box"/>
+<polyline points="244,700 276,700" class="thin"/>
+<text x="260" y="696" class="t10 b" text-anchor="middle">TT</text>
+<text x="260" y="712" class="t10" text-anchor="middle">1001</text>
+<polyline points="260,719 260,750" class="thin"/>
+<circle cx="600.0" cy="750" r="22" class="box"/>
+<path d="M587.9,763.2 L618.7,745.6 M587.9,736.8 L618.7,754.4" class="thin"/>
+<text x="600.0" y="792" class="t10 b" text-anchor="middle">K-101 FD FAN</text>
+<text x="600.0" y="804" class="t8" text-anchor="middle">centrifugal, VFD; 30 kW abs. / 75 kW motor</text>
+<polyline points="622.0,750 760.0,750 760.0,600" class="util" marker-end="url(#ar)"/>
+<polyline points="642.0,739 642.0,761" class="thin"/>
+<polyline points="648.0,739 648.0,761" class="thin"/>
+<rect x="626.0" y="676" width="38" height="38" rx="0" class="box"/>
+<circle cx="645.0" cy="695" r="19" class="box"/>
+<polyline points="626.0,695 664.0,695" class="thin"/>
+<text x="645.0" y="691" class="t10 b" text-anchor="middle">FIC</text>
+<text x="645.0" y="707" class="t10" text-anchor="middle">1341</text>
+<polyline points="645.0,714 645.0,739" class="thin"/>
+<polyline points="626.0,695 614.0,695 614.0,732" class="sig"/>
+<polygon points="330.0,627.0 486.0,627.0 500.0,640 486.0,653.0 330.0,653.0" class="box"/>
+<text x="336.0" y="639" class="t9 b" text-anchor="start">FROM AIC-1321</text>
+<text x="336.0" y="650" class="t8" text-anchor="start">arch O2, U100-PID-102 (SP)</text>
+<polyline points="500.0,640 645.0,640 645.0,676" class="sig"/>
+<circle cx="570.0" cy="830" r="19" class="box"/>
+<polyline points="554.0,830 586.0,830" class="thin"/>
+<text x="570.0" y="826" class="t10 b" text-anchor="middle">SC</text>
+<text x="570.0" y="842" class="t10" text-anchor="middle">1341</text>
+<polyline points="578.0,813 592.0,770" class="sig"/>
+<circle cx="630.0" cy="830" r="19" class="box"/>
+<polyline points="614.0,830 646.0,830" class="thin"/>
+<text x="630.0" y="826" class="t10 b" text-anchor="middle">SI</text>
+<text x="630.0" y="842" class="t10" text-anchor="middle">1341</text>
+<circle cx="680.0" cy="830" r="19" class="box"/>
+<polyline points="664.0,830 696.0,830" class="thin"/>
+<text x="680.0" y="826" class="t10 b" text-anchor="middle">JI</text>
+<text x="680.0" y="842" class="t10" text-anchor="middle">1341</text>
+<rect x="711.0" y="811" width="38" height="38" rx="0" class="box"/>
+<polygon points="730.0,811 749.0,830 730.0,849 711.0,830" class="box"/>
+<polyline points="714.0,830 746.0,830" class="thin"/>
+<text x="730.0" y="826" class="t10 b" text-anchor="middle">XS</text>
+<text x="730.0" y="842" class="t10" text-anchor="middle">1341</text>
+<circle cx="610.0" cy="450.0" r="19" class="box"/>
+<polyline points="594.0,450.0 626.0,450.0" class="thin"/>
+<text x="610.0" y="446.0" class="t10 b" text-anchor="middle">PDT</text>
+<text x="610.0" y="462.0" class="t10" text-anchor="middle">1348</text>
+<polyline points="629.0,442.0 740.0,310" class="thin"/>
+<polyline points="629.0,458.0 740.0,590" class="thin"/>
+<text x="584.0" y="454.0" class="t8" text-anchor="end">air ΔP 50 (Hi 75)</text>
+<polyline points="760.0,300 760.0,160 330,160" class="util" marker-end="url(#ar)"/>
+<polygon points="184,147.0 330,147.0 330,173.0 184,173.0 170,160" class="box"/>
+<text x="188" y="159" class="t9 b" text-anchor="start">HOT AIR TO WINDBOX</text>
+<text x="188" y="170" class="t8" text-anchor="start">U100-PID-102 (≈ 300 °C)</text>
+<polyline points="330,160 330,160" class="util"/>
+<circle cx="700.0" cy="110" r="19" class="box"/>
+<polyline points="684.0,110 716.0,110" class="thin"/>
+<text x="700.0" y="106" class="t10 b" text-anchor="middle">TT</text>
+<text x="700.0" y="122" class="t10" text-anchor="middle">1343</text>
+<polyline points="700.0,129 700.0,160" class="thin"/>
+<polyline points="680.0,750 680.0,210 760.0,210" class="util"/>
+<circle cx="680.0" cy="750" r="3" fill="#000"/>
+<circle cx="760.0" cy="210" r="3" fill="#000"/>
+<polyline points="666.0,367 694.0,353" class="proc"/>
+<circle cx="680.0" cy="360" r="3" fill="#000"/>
+<polyline points="680.0,360 650.0,360" class="thin"/>
+<path d="M650.0,349 A11,11 0 0,0 650.0,371 z" class="box"/>
+<text x="634.0" y="358" class="t9 b" text-anchor="end">TV-1345</text>
+<text x="634.0" y="370" class="t8" text-anchor="end">cold-air bypass, FC</text>
+<polyline points="810.0,689 810.0,704 560.0,704 560.0,360 639.0,360" class="sig"/>
+<rect x="1180" y="788" width="484" height="221.0" rx="0" class="box"/>
+<text x="1190" y="806.0" class="t9 b" text-anchor="start">NATURAL-DRAFT RUNBACK (I-101, see U100-PID-102)</text>
+<text x="1190" y="819.4" class="t9" text-anchor="start">Initiators: XS-1341 FD stop, XS-1351 ID stop, XS-1349 APH rotor stop</text>
+<text x="1190" y="832.8" class="t9" text-anchor="start">Actions: open XV-1361 bypass damper (D-101) and XV-1362</text>
+<text x="1190" y="846.2" class="t9" text-anchor="start">emergency air doors (D-102); stop the other fan; clamp</text>
+<text x="1190" y="859.6" class="t9" text-anchor="start">PIC-1202 setpoint so firing ≤ 60 % of normal. Not a fuel trip.</text>
+<text x="1190" y="873.0" class="t9" text-anchor="start"></text>
+<text x="1190" y="886.4" class="t9 b" text-anchor="start">OPTIMIZER LIMITS ON THIS SHEET</text>
+<text x="1190" y="899.8" class="t9" text-anchor="start">TIC-1345 APH gas outlet ≥ 140 °C (acid dew point margin)</text>
+<text x="1190" y="913.2" class="t9" text-anchor="start">SI-1341 / SI-1351 fan speed ≤ 95 % (capacity)</text>
+<text x="1190" y="926.6" class="t9" text-anchor="start">Fan power JI-1341 + JI-1351 is a cost term</text>
+<text x="1190" y="940.0" class="t9" text-anchor="start"></text>
+<text x="1190" y="953.4" class="t9 b" text-anchor="start">DEGRADATION FINGERPRINTS (Type B)</text>
+<text x="1190" y="966.8" class="t9" text-anchor="start">Seal leakage ↑: AT-1326 − AT-1327 ↑ (≈ 1.2 new), SI-1351 ↑,</text>
+<text x="1190" y="980.2" class="t9" text-anchor="start">  TIC-1345 ↓ (dilution), FIC-1341 ↑ for same burner air</text>
+<text x="1190" y="993.6" class="t9" text-anchor="start">Fouling ↑: PDT-1347 ↑, TT-1343 ↓, TIC-1345 ↑, ID load ↑</text>
+<rect x="30" y="1012" width="1068" height="160" rx="0" class="box"/>
+<text x="40" y="1030" class="t10 b" text-anchor="start">NOTES</text>
+<text x="40" y="1048" class="t9" text-anchor="start">1. Regenerative APH: gas and air halves counter-current; rotor drive with rotation monitor XS-1349 (rotor stop = runback + APH fire watch).</text>
+<text x="40" y="1063" class="t9" text-anchor="start">2. FD fan K-101 sets combustion air (FIC-1341, cascaded from AIC-1321 arch O2); ID fan K-102 holds arch draft (PIC-1311 on PID-102).</text>
+<text x="40" y="1078" class="t9" text-anchor="start">3. TV-1345 cold-air bypass (TIC-1345 SP 148 °C, Lo alarm 145, limit 140) opens in cold weather / low load; closed at design.</text>
+<text x="40" y="1093" class="t9" text-anchor="start">4. FIC-1341 measures FD discharge air, which includes APH seal leakage — burner air = FIC-1341 minus leakage.</text>
+<text x="40" y="1108" class="t9" text-anchor="start">5. SB-102A/B steam soot blowers (hot and cold end) sequenced with SB-101A–F; offline water-wash connections not shown.</text>
+<text x="40" y="1123" class="t9" text-anchor="start">6. Duct expansion joints, inlet filter/silencer, fan inlet dampers and seal-air systems not shown.</text>
+<text x="40" y="1138" class="t9" text-anchor="start">7. Symbols: see legend on U100-PID-101. Values per design/tag_register.csv (Rev B); preliminary, pending ChemE review.</text></svg>

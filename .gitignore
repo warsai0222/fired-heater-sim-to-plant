@@ -1,0 +1,7 @@
+raw_assays/
+data/
+__pycache__/
+.venv/
+.pytest_cache/
+.DS_Store
+NOTES.local.md

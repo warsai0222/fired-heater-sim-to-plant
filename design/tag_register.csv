@@ -1,0 +1,87 @@
+tag,equipment_id,service,description,units,normal,alarm_lo,alarm_hi,trip_lolo,trip_hihi,function,model_signal,notes
+TT-1001,heater_h101,utility,Ambient air temperature,C,25,,,,,indication,input,Given condition; varies daily in plant simulator
+FY-1100,pass_flow_control,process,Total crude charge (sum of 4 pass flows),t/h,286,250,,,,calculated,input,Given condition
+TT-1100,pass_flow_control,process,Heater inlet crude temperature,C,250,235,265,,,indication,input,Given condition (preheat train outlet)
+PT-1100,pass_flow_control,process,Heater inlet header pressure,barg,11.0,9.0,,,,indication,measured,
+FIC-1101,pass_flow_control,process,Pass A flow control,t/h,71.5,60,80,,,control,measured,Manipulates FV-1101
+FIC-1102,pass_flow_control,process,Pass B flow control,t/h,71.5,60,80,,,control,measured,Manipulates FV-1102
+FIC-1103,pass_flow_control,process,Pass C flow control,t/h,71.5,60,80,,,control,measured,Manipulates FV-1103
+FIC-1104,pass_flow_control,process,Pass D flow control,t/h,71.5,60,80,,,control,measured,Manipulates FV-1104
+FT-1151,bms_sis,sis,Pass A flow (SIS transmitter),t/h,71.5,,,43,,trip,measured,LL = 60% of normal; 2oo2 with FIC-1101 deviation alarm
+FT-1152,bms_sis,sis,Pass B flow (SIS transmitter),t/h,71.5,,,43,,trip,measured,
+FT-1153,bms_sis,sis,Pass C flow (SIS transmitter),t/h,71.5,,,43,,trip,measured,
+FT-1154,bms_sis,sis,Pass D flow (SIS transmitter),t/h,71.5,,,43,,trip,measured,
+PT-1101,radiant_coil,process,Pass A coil inlet pressure (downstream of FV),barg,8.5,,,,,indication,measured,
+PT-1102,radiant_coil,process,Pass B coil inlet pressure,barg,8.5,,,,,indication,measured,
+PT-1103,radiant_coil,process,Pass C coil inlet pressure,barg,8.5,,,,,indication,measured,
+PT-1104,radiant_coil,process,Pass D coil inlet pressure,barg,8.5,,,,,indication,measured,
+PDI-1101,radiant_coil,process,Pass A coil pressure drop (PT-1101 minus PT-1110),bar,6.0,,7.8,,8.4,alarm,measured,Clean SOR ~6.0 bar; HH = 40% above clean (hydraulic limit); second coke signal
+PDI-1102,radiant_coil,process,Pass B coil pressure drop,bar,6.0,,7.8,,8.4,alarm,measured,
+PDI-1103,radiant_coil,process,Pass C coil pressure drop,bar,6.0,,7.8,,8.4,alarm,measured,
+PDI-1104,radiant_coil,process,Pass D coil pressure drop,bar,6.0,,7.8,,8.4,alarm,measured,
+TT-1131,convection_section,process,Pass A crossover temperature (convection outlet),C,292,,310,,,indication,measured,
+TT-1132,convection_section,process,Pass B crossover temperature,C,292,,310,,,indication,measured,
+TT-1133,convection_section,process,Pass C crossover temperature,C,292,,310,,,indication,measured,
+TT-1134,convection_section,process,Pass D crossover temperature,C,292,,310,,,indication,measured,
+TT-1111,radiant_coil,process,Pass A outlet temperature,C,360,352,368,,,indication,measured,Pass deviation alarm TDA-1111..1114 at +/-6 C from average
+TT-1112,radiant_coil,process,Pass B outlet temperature,C,360,352,368,,,indication,measured,
+TT-1113,radiant_coil,process,Pass C outlet temperature,C,360,352,368,,,indication,measured,
+TT-1114,radiant_coil,process,Pass D outlet temperature,C,360,352,368,,,indication,measured,
+TIC-1110,transfer_line,process,Combined coil outlet temperature (COT) control,C,360,352,368,,375,control,measured,Master of COT->fuel-gas pressure cascade; HH is alarm only (no trip)
+PT-1110,transfer_line,process,Coil outlet pressure,barg,2.5,,3.2,,,indication,measured,
+TI-1121A,radiant_coil,process,Pass A tube skin temperature (hot zone upper),C,430,,585,,600,alarm,measured,SOR ~420 C; 600 C = TMT operating limit (EOR) for P9; HH alarm only
+TI-1121B,radiant_coil,process,Pass A tube skin temperature (hot zone lower),C,430,,585,,600,alarm,measured,
+TI-1122A,radiant_coil,process,Pass B tube skin temperature (hot zone upper),C,430,,585,,600,alarm,measured,
+TI-1122B,radiant_coil,process,Pass B tube skin temperature (hot zone lower),C,430,,585,,600,alarm,measured,
+TI-1123A,radiant_coil,process,Pass C tube skin temperature (hot zone upper),C,430,,585,,600,alarm,measured,
+TI-1123B,radiant_coil,process,Pass C tube skin temperature (hot zone lower),C,430,,585,,600,alarm,measured,
+TI-1124A,radiant_coil,process,Pass D tube skin temperature (hot zone upper),C,430,,585,,600,alarm,measured,
+TI-1124B,radiant_coil,process,Pass D tube skin temperature (hot zone lower),C,430,,585,,600,alarm,measured,
+FT-1201,fuel_gas_system,fuel,Fuel gas mass flow to burners,kg/h,2860,,3430,,,indication,measured,Hi alarm ~120% of normal heat release
+PIC-1202,fuel_gas_system,fuel,Fuel gas pressure to burner manifold (COT cascade slave),barg,1.2,0.35,2.2,,,control,measured,Manipulates PV-1202
+PT-1206,bms_sis,sis,Fuel gas burner pressure low-low (SIS),barg,1.2,,,0.25,,trip,measured,Flame-stability limit
+PT-1207,bms_sis,sis,Fuel gas burner pressure high-high (SIS),barg,1.2,,,,2.5,trip,measured,Flame lift-off / burner capacity limit
+AT-1203,fuel_gas_system,fuel,Fuel gas lower heating value (calorimeter),MJ/kg,48.5,44,52,,,indication,input,Given condition; composition varies in plant simulator
+TT-1204,fuel_gas_system,fuel,Fuel gas temperature,C,40,,,,,indication,input,
+LT-1205,fuel_gas_ko_drum,fuel,Fuel gas KO drum level,%,10,,50,,80,trip,none,LSHH-1205 trips main fuel
+PT-1208,pilot_gas_system,fuel,Pilot gas pressure,barg,0.7,0.4,,0.25,,trip,none,Low-low trips pilots and main fuel
+BS-1211,bms_sis,sis,Burner B-101A flame scanner,on/off,1,,,0,,trip,none,Loss of flame on a burner closes that burner only; loss of 3 or more trips heater
+BS-1212,bms_sis,sis,Burner B-101B flame scanner,on/off,1,,,0,,trip,none,
+BS-1213,bms_sis,sis,Burner B-101C flame scanner,on/off,1,,,0,,trip,none,
+BS-1214,bms_sis,sis,Burner B-101D flame scanner,on/off,1,,,0,,trip,none,
+BS-1215,bms_sis,sis,Burner B-101E flame scanner,on/off,1,,,0,,trip,none,
+BS-1216,bms_sis,sis,Burner B-101F flame scanner,on/off,1,,,0,,trip,none,
+BS-1217,bms_sis,sis,Burner B-101G flame scanner,on/off,1,,,0,,trip,none,
+BS-1218,bms_sis,sis,Burner B-101H flame scanner,on/off,1,,,0,,trip,none,
+TT-1301A,radiant_section,flue,Bridgewall temperature A (radiant exit),C,845,760,900,,930,alarm,measured,Envelope 760-900 C; HH alarm
+TT-1301B,radiant_section,flue,Bridgewall temperature B (radiant exit),C,845,760,900,,930,alarm,measured,
+TT-1302,convection_section,flue,Flue gas temperature between shield and studded rows,C,740,,800,,,indication,measured,
+TT-1303,convection_section,flue,Convection outlet / APH gas inlet temperature,C,390,,440,,,indication,measured,Rises with convection fouling; afterburning check
+PIC-1311,id_fan,flue,Arch draft control,mmH2O,-2.5,-6.0,-0.5,,0.0,control,measured,Manipulates ID fan VFD SC-1351; HH (positive pressure) alarm at 0.0; trip on PT-1314
+PT-1312,radiant_section,flue,Floor (burner level) draft,mmH2O,-10.0,,-6.0,,,indication,measured,
+PT-1313,convection_section,flue,Draft at convection outlet / APH gas inlet,mmH2O,-20.0,,,,,indication,measured,
+AIC-1321,flue_gas_analyzers,flue,Arch excess O2 control (dry basis),vol% dry,3.0,1.5,5.0,1.0,,control,measured,Master of FIC-1341 (air flow -> FD fan); setpoint is a decision variable; LL is alarm not trip
+AT-1322,flue_gas_analyzers,flue,Arch CO,ppm,30,,200,,1000,alarm,measured,HH indicates combustibles / sub-stoichiometric firing
+AT-1326,flue_gas_analyzers,flue,Stack O2 (CEMS),vol% dry,4.4,,,,,indication,measured,Stack O2 after APH; AT-1326 minus AT-1327 indicates APH seal leakage (~1.2 points as new)
+AT-1325,flue_gas_analyzers,flue,Stack NOx (CEMS),mg/Nm3 @3% O2,80,,150,,,alarm,measured,Permit limit ASSUMED 150 mg/Nm3
+PI-1403,snuffing_steam,utility,Snuffing steam header pressure,barg,3.5,2.5,,,,indication,none,
+HS-1501,soot_blowers,utility,Soot blower sequence status,step,0,,,,,indication,event,Sequences SB-101A-F (convection) and SB-102A/B (APH); logged as soot-blow events
+HS-1290,bms_sis,sis,Manual emergency shutdown push-button (control room and field),on/off,0,,,,1,trip,event,Total trip (main fuel + pilots)
+FIC-1341,fd_fan,air,Combustion air flow (FD discharge; includes APH leakage),kg/h,57850,45000,,,,control,measured,Slave of AIC-1321; manipulates FD fan VFD SC-1341; cross-limited with fuel
+PT-1342,burners,air,Burner windbox (hot air) pressure,mmH2O,60,20,,,,indication,measured,
+TT-1343,air_preheater,air,Hot air temperature (APH air outlet),C,300,250,340,,,indication,measured,Falls with APH fouling or rotor fault
+TIC-1345,air_preheater,flue,APH gas outlet temperature (cold-end control),C,150,145,,140,,control,measured,SP 148 C; manipulates cold-air bypass TV-1345; LL 140 C = acid dew point margin (alarm and optimizer limit; not a trip)
+AT-1327,flue_gas_analyzers,flue,O2 at convection outlet / APH gas inlet,vol% dry,3.2,,,,,indication,measured,AT-1327 minus AIC-1321 indicates convection-section air ingress (~0.2 points as commissioned)
+PDT-1347,air_preheater,flue,APH gas-side pressure drop,mmH2O,80,,120,,,alarm,measured,Rises with APH fouling / plugging
+PDT-1348,air_preheater,air,APH air-side pressure drop,mmH2O,50,,75,,,alarm,measured,
+XS-1349,bms_sis,sis,APH rotor rotation monitor,on/off,1,,,0,,trip,event,Rotor stop -> natural-draft runback + fire watch
+PT-1314,bms_sis,sis,Firebox pressure high-high (SIS),mmH2O,-2.5,,,,10,trip,measured,Main fuel trip at +10 mmH2O for 5 s
+PT-1352,id_fan,flue,ID fan inlet pressure,mmH2O,-120,,,,,indication,measured,
+SI-1341,fd_fan,air,FD fan speed (VFD),%,70,,95,,,alarm,measured,95% = capacity limit (optimizer constraint)
+SI-1351,id_fan,flue,ID fan speed (VFD),%,72,,95,,,alarm,measured,95% = capacity limit (optimizer constraint); rises with APH leakage / fouling
+JI-1341,fd_fan,air,FD fan motor power,kW,32,,60,,,indication,measured,Electrical cost term in optimizer
+JI-1351,id_fan,flue,ID fan motor power,kW,42,,75,,,indication,measured,Electrical cost term in optimizer
+XS-1341,bms_sis,sis,FD fan running status,on/off,1,,,0,,trip,event,Stop -> natural-draft runback
+XS-1351,bms_sis,sis,ID fan running status,on/off,1,,,0,,trip,event,Stop -> natural-draft runback
+ZT-1361,bypass_dampers,flue,Flue-gas bypass damper D-101 position (XV-1361),%open,0,,5,,,alarm,measured,Closed in balanced draft; open alarm
+ZT-1362,bypass_dampers,air,Emergency air doors D-102 position (XV-1362),%open,0,,5,,,alarm,measured,Closed in balanced draft; open alarm

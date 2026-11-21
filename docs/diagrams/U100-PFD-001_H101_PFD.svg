@@ -1,0 +1,572 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 1188" width="420mm" height="297mm">
+<style>
+ text{font-family:Arial,Helvetica,sans-serif;fill:#111}
+ .t8{font-size:8px}.t9{font-size:9px}.t10{font-size:10px}.t11{font-size:11px}.t12{font-size:12px}
+ .t14{font-size:14px}.t16{font-size:16px}.t20{font-size:20px}.b{font-weight:bold}.i{font-style:italic}
+ .proc{stroke:#000;stroke-width:2.4;fill:none}
+ .fuel{stroke:#000;stroke-width:1.8;fill:none}
+ .util{stroke:#000;stroke-width:1.4;fill:none}
+ .flue{stroke:#666;stroke-width:1.6;fill:none;stroke-dasharray:10 4}
+ .sig{stroke:#000;stroke-width:1;fill:none;stroke-dasharray:6 3}
+ .thin{stroke:#000;stroke-width:1;fill:none}
+ .eq{stroke:#000;stroke-width:2;fill:#fff}
+ .refr{stroke:#000;stroke-width:2;fill:#f3efe9}
+ .box{stroke:#000;stroke-width:1;fill:#fff}
+ .grid{stroke:#999;stroke-width:.6}
+ .flame{stroke:#c0392b;stroke-width:1.4;fill:#f9d6c4}
+ .tube{stroke:#333;stroke-width:1;fill:#fff}
+ .hdr{fill:#e6eef4}
+ .red{fill:#b03a2e}
+</style>
+<defs>
+ <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+  <path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+ <marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+  <path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#fff"/><rect x="10" y="10" width="1660" height="1168" rx="0" class="thin"/>
+<rect x="16" y="16" width="1648" height="1156" rx="0" class="thin"/>
+<rect x="1110" y="1012" width="554" height="160" rx="0" class="box"/>
+<text x="1122" y="1040" class="t12 b" text-anchor="start">DEMO REFINERY — UNIT 100 CRUDE DISTILLATION</text>
+<text x="1122" y="1064" class="t14 b" text-anchor="start">PROCESS FLOW DIAGRAM — H-101 CRUDE CHARGE HEATER</text>
+<text x="1122" y="1088" class="t11" text-anchor="start">Drawing No. U100-PFD-001     Rev B     Sheet 1 of 1</text>
+<text x="1122" y="1108" class="t11 b red" text-anchor="start">Status: PRELIMINARY — FOR REVIEW (not for construction)</text>
+<text x="1122" y="1128" class="t9" text-anchor="start">Basis: design/heater_design_reference.md, design/tag_register.csv</text>
+<text x="1122" y="1142" class="t9" text-anchor="start">Proposal §5 design basis (ASSUMED values, pending ChemE review)</text>
+<text x="1122" y="1158" class="t9" text-anchor="start">Date 2026-11-20   |   Synthetic demo project — fictional plant</text>
+<polyline points="1110,1048 1664,1048" class="grid"/>
+<polyline points="1110,1072 1664,1072" class="grid"/>
+<polyline points="1110,1094 1664,1094" class="grid"/>
+<polyline points="1110,1114 1664,1114" class="grid"/>
+<rect x="805.0" y="60" width="50" height="150" rx="0" class="refr"/>
+<polygon points="805.0,210 855.0,210 965.0,260 695.0,260" class="refr"/>
+<rect x="695.0" y="260" width="270" height="130" rx="0" class="refr"/>
+<circle cx="717.0" cy="278.0" r="7" class="tube"/>
+<circle cx="717.0" cy="278.0" r="3.5" class="tube"/>
+<circle cx="742.1111111111111" cy="278.0" r="7" class="tube"/>
+<circle cx="742.1111111111111" cy="278.0" r="3.5" class="tube"/>
+<circle cx="767.2222222222222" cy="278.0" r="7" class="tube"/>
+<circle cx="767.2222222222222" cy="278.0" r="3.5" class="tube"/>
+<circle cx="792.3333333333334" cy="278.0" r="7" class="tube"/>
+<circle cx="792.3333333333334" cy="278.0" r="3.5" class="tube"/>
+<circle cx="817.4444444444445" cy="278.0" r="7" class="tube"/>
+<circle cx="817.4444444444445" cy="278.0" r="3.5" class="tube"/>
+<circle cx="842.5555555555555" cy="278.0" r="7" class="tube"/>
+<circle cx="842.5555555555555" cy="278.0" r="3.5" class="tube"/>
+<circle cx="867.6666666666666" cy="278.0" r="7" class="tube"/>
+<circle cx="867.6666666666666" cy="278.0" r="3.5" class="tube"/>
+<circle cx="892.7777777777778" cy="278.0" r="7" class="tube"/>
+<circle cx="892.7777777777778" cy="278.0" r="3.5" class="tube"/>
+<circle cx="917.8888888888889" cy="278.0" r="7" class="tube"/>
+<circle cx="917.8888888888889" cy="278.0" r="3.5" class="tube"/>
+<circle cx="943.0" cy="278.0" r="7" class="tube"/>
+<circle cx="943.0" cy="278.0" r="3.5" class="tube"/>
+<circle cx="717.0" cy="298.0" r="7" class="tube"/>
+<circle cx="717.0" cy="298.0" r="3.5" class="tube"/>
+<circle cx="742.1111111111111" cy="298.0" r="7" class="tube"/>
+<circle cx="742.1111111111111" cy="298.0" r="3.5" class="tube"/>
+<circle cx="767.2222222222222" cy="298.0" r="7" class="tube"/>
+<circle cx="767.2222222222222" cy="298.0" r="3.5" class="tube"/>
+<circle cx="792.3333333333334" cy="298.0" r="7" class="tube"/>
+<circle cx="792.3333333333334" cy="298.0" r="3.5" class="tube"/>
+<circle cx="817.4444444444445" cy="298.0" r="7" class="tube"/>
+<circle cx="817.4444444444445" cy="298.0" r="3.5" class="tube"/>
+<circle cx="842.5555555555555" cy="298.0" r="7" class="tube"/>
+<circle cx="842.5555555555555" cy="298.0" r="3.5" class="tube"/>
+<circle cx="867.6666666666666" cy="298.0" r="7" class="tube"/>
+<circle cx="867.6666666666666" cy="298.0" r="3.5" class="tube"/>
+<circle cx="892.7777777777778" cy="298.0" r="7" class="tube"/>
+<circle cx="892.7777777777778" cy="298.0" r="3.5" class="tube"/>
+<circle cx="917.8888888888889" cy="298.0" r="7" class="tube"/>
+<circle cx="917.8888888888889" cy="298.0" r="3.5" class="tube"/>
+<circle cx="943.0" cy="298.0" r="7" class="tube"/>
+<circle cx="943.0" cy="298.0" r="3.5" class="tube"/>
+<circle cx="717.0" cy="318.0" r="7" class="tube"/>
+<circle cx="717.0" cy="318.0" r="3.5" class="tube"/>
+<circle cx="742.1111111111111" cy="318.0" r="7" class="tube"/>
+<circle cx="742.1111111111111" cy="318.0" r="3.5" class="tube"/>
+<circle cx="767.2222222222222" cy="318.0" r="7" class="tube"/>
+<circle cx="767.2222222222222" cy="318.0" r="3.5" class="tube"/>
+<circle cx="792.3333333333334" cy="318.0" r="7" class="tube"/>
+<circle cx="792.3333333333334" cy="318.0" r="3.5" class="tube"/>
+<circle cx="817.4444444444445" cy="318.0" r="7" class="tube"/>
+<circle cx="817.4444444444445" cy="318.0" r="3.5" class="tube"/>
+<circle cx="842.5555555555555" cy="318.0" r="7" class="tube"/>
+<circle cx="842.5555555555555" cy="318.0" r="3.5" class="tube"/>
+<circle cx="867.6666666666666" cy="318.0" r="7" class="tube"/>
+<circle cx="867.6666666666666" cy="318.0" r="3.5" class="tube"/>
+<circle cx="892.7777777777778" cy="318.0" r="7" class="tube"/>
+<circle cx="892.7777777777778" cy="318.0" r="3.5" class="tube"/>
+<circle cx="917.8888888888889" cy="318.0" r="7" class="tube"/>
+<circle cx="917.8888888888889" cy="318.0" r="3.5" class="tube"/>
+<circle cx="943.0" cy="318.0" r="7" class="tube"/>
+<circle cx="943.0" cy="318.0" r="3.5" class="tube"/>
+<circle cx="717.0" cy="338.0" r="7" class="tube"/>
+<circle cx="717.0" cy="338.0" r="3.5" class="tube"/>
+<circle cx="742.1111111111111" cy="338.0" r="7" class="tube"/>
+<circle cx="742.1111111111111" cy="338.0" r="3.5" class="tube"/>
+<circle cx="767.2222222222222" cy="338.0" r="7" class="tube"/>
+<circle cx="767.2222222222222" cy="338.0" r="3.5" class="tube"/>
+<circle cx="792.3333333333334" cy="338.0" r="7" class="tube"/>
+<circle cx="792.3333333333334" cy="338.0" r="3.5" class="tube"/>
+<circle cx="817.4444444444445" cy="338.0" r="7" class="tube"/>
+<circle cx="817.4444444444445" cy="338.0" r="3.5" class="tube"/>
+<circle cx="842.5555555555555" cy="338.0" r="7" class="tube"/>
+<circle cx="842.5555555555555" cy="338.0" r="3.5" class="tube"/>
+<circle cx="867.6666666666666" cy="338.0" r="7" class="tube"/>
+<circle cx="867.6666666666666" cy="338.0" r="3.5" class="tube"/>
+<circle cx="892.7777777777778" cy="338.0" r="7" class="tube"/>
+<circle cx="892.7777777777778" cy="338.0" r="3.5" class="tube"/>
+<circle cx="917.8888888888889" cy="338.0" r="7" class="tube"/>
+<circle cx="917.8888888888889" cy="338.0" r="3.5" class="tube"/>
+<circle cx="943.0" cy="338.0" r="7" class="tube"/>
+<circle cx="943.0" cy="338.0" r="3.5" class="tube"/>
+<circle cx="717.0" cy="358.0" r="6" class="tube"/>
+<circle cx="742.1111111111111" cy="358.0" r="6" class="tube"/>
+<circle cx="767.2222222222222" cy="358.0" r="6" class="tube"/>
+<circle cx="792.3333333333334" cy="358.0" r="6" class="tube"/>
+<circle cx="817.4444444444445" cy="358.0" r="6" class="tube"/>
+<circle cx="842.5555555555555" cy="358.0" r="6" class="tube"/>
+<circle cx="867.6666666666666" cy="358.0" r="6" class="tube"/>
+<circle cx="892.7777777777778" cy="358.0" r="6" class="tube"/>
+<circle cx="917.8888888888889" cy="358.0" r="6" class="tube"/>
+<circle cx="943.0" cy="358.0" r="6" class="tube"/>
+<circle cx="717.0" cy="378.0" r="6" class="tube"/>
+<circle cx="742.1111111111111" cy="378.0" r="6" class="tube"/>
+<circle cx="767.2222222222222" cy="378.0" r="6" class="tube"/>
+<circle cx="792.3333333333334" cy="378.0" r="6" class="tube"/>
+<circle cx="817.4444444444445" cy="378.0" r="6" class="tube"/>
+<circle cx="842.5555555555555" cy="378.0" r="6" class="tube"/>
+<circle cx="867.6666666666666" cy="378.0" r="6" class="tube"/>
+<circle cx="892.7777777777778" cy="378.0" r="6" class="tube"/>
+<circle cx="917.8888888888889" cy="378.0" r="6" class="tube"/>
+<circle cx="943.0" cy="378.0" r="6" class="tube"/>
+<polygon points="695.0,390 965.0,390 1040.0,430 620.0,430" class="refr"/>
+<rect x="620.0" y="430" width="420" height="240" rx="0" class="refr"/>
+<rect x="632.0" y="438" width="396" height="232" rx="0" class="box"/>
+<circle cx="646.0" cy="452.0" r="5" class="tube"/>
+<circle cx="1014.0" cy="452.0" r="5" class="tube"/>
+<circle cx="646.0" cy="464.5" r="5" class="tube"/>
+<circle cx="1014.0" cy="464.5" r="5" class="tube"/>
+<circle cx="646.0" cy="477.0" r="5" class="tube"/>
+<circle cx="1014.0" cy="477.0" r="5" class="tube"/>
+<circle cx="646.0" cy="489.5" r="5" class="tube"/>
+<circle cx="1014.0" cy="489.5" r="5" class="tube"/>
+<circle cx="646.0" cy="502.0" r="5" class="tube"/>
+<circle cx="1014.0" cy="502.0" r="5" class="tube"/>
+<circle cx="646.0" cy="514.5" r="5" class="tube"/>
+<circle cx="1014.0" cy="514.5" r="5" class="tube"/>
+<circle cx="646.0" cy="527.0" r="5" class="tube"/>
+<circle cx="1014.0" cy="527.0" r="5" class="tube"/>
+<circle cx="646.0" cy="539.5" r="5" class="tube"/>
+<circle cx="1014.0" cy="539.5" r="5" class="tube"/>
+<circle cx="646.0" cy="552.0" r="5" class="tube"/>
+<circle cx="1014.0" cy="552.0" r="5" class="tube"/>
+<circle cx="646.0" cy="564.5" r="5" class="tube"/>
+<circle cx="1014.0" cy="564.5" r="5" class="tube"/>
+<circle cx="646.0" cy="577.0" r="5" class="tube"/>
+<circle cx="1014.0" cy="577.0" r="5" class="tube"/>
+<circle cx="646.0" cy="589.5" r="5" class="tube"/>
+<circle cx="1014.0" cy="589.5" r="5" class="tube"/>
+<circle cx="646.0" cy="602.0" r="5" class="tube"/>
+<circle cx="1014.0" cy="602.0" r="5" class="tube"/>
+<circle cx="646.0" cy="614.5" r="5" class="tube"/>
+<circle cx="1014.0" cy="614.5" r="5" class="tube"/>
+<circle cx="646.0" cy="627.0" r="5" class="tube"/>
+<circle cx="1014.0" cy="627.0" r="5" class="tube"/>
+<circle cx="646.0" cy="639.5" r="5" class="tube"/>
+<circle cx="1014.0" cy="639.5" r="5" class="tube"/>
+<circle cx="646.0" cy="652.0" r="5" class="tube"/>
+<circle cx="1014.0" cy="652.0" r="5" class="tube"/>
+<circle cx="646.0" cy="664.5" r="5" class="tube"/>
+<circle cx="1014.0" cy="664.5" r="5" class="tube"/>
+<rect x="620.0" y="670" width="420" height="14" rx="0" class="refr"/>
+<path d="M663.0,670 Q664.0,630 672.0,600 Q680.0,630 681.0,670 z" class="flame"/>
+<rect x="665.0" y="672" width="14" height="10" rx="0" class="box"/>
+<path d="M708.1428571428571,670 Q709.1428571428571,630 717.1428571428571,600 Q725.1428571428571,630 726.1428571428571,670 z" class="flame"/>
+<rect x="710.1428571428571" y="672" width="14" height="10" rx="0" class="box"/>
+<path d="M753.2857142857143,670 Q754.2857142857143,630 762.2857142857143,600 Q770.2857142857143,630 771.2857142857143,670 z" class="flame"/>
+<rect x="755.2857142857143" y="672" width="14" height="10" rx="0" class="box"/>
+<path d="M798.4285714285714,670 Q799.4285714285714,630 807.4285714285714,600 Q815.4285714285714,630 816.4285714285714,670 z" class="flame"/>
+<rect x="800.4285714285714" y="672" width="14" height="10" rx="0" class="box"/>
+<path d="M843.5714285714286,670 Q844.5714285714286,630 852.5714285714286,600 Q860.5714285714286,630 861.5714285714286,670 z" class="flame"/>
+<rect x="845.5714285714286" y="672" width="14" height="10" rx="0" class="box"/>
+<path d="M888.7142857142858,670 Q889.7142857142858,630 897.7142857142858,600 Q905.7142857142858,630 906.7142857142858,670 z" class="flame"/>
+<rect x="890.7142857142858" y="672" width="14" height="10" rx="0" class="box"/>
+<path d="M933.8571428571429,670 Q934.8571428571429,630 942.8571428571429,600 Q950.8571428571429,630 951.8571428571429,670 z" class="flame"/>
+<rect x="935.8571428571429" y="672" width="14" height="10" rx="0" class="box"/>
+<path d="M979.0,670 Q980.0,630 988.0,600 Q996.0,630 997.0,670 z" class="flame"/>
+<rect x="981.0" y="672" width="14" height="10" rx="0" class="box"/>
+<rect x="640.0" y="684" width="380" height="32" rx="0" class="box"/>
+<polyline points="650.0,716 650.0,750" class="util"/>
+<polyline points="1010.0,716 1010.0,750" class="util"/>
+<text x="795.0" y="74" class="t11 b" text-anchor="end">S-101 STACK</text>
+<polyline points="816,177 844,163" class="proc"/>
+<circle cx="830" cy="170" r="3" fill="#000"/>
+<text x="795.0" y="168" class="t9 b" text-anchor="end">D-101 bypass damper</text>
+<text x="795.0" y="180" class="t8" text-anchor="end">closed; opens on fan trip (FO)</text>
+<text x="973.0" y="274" class="t10 b" text-anchor="start">CONVECTION</text>
+<text x="973.0" y="287" class="t8" text-anchor="start">studded + 2 shield rows</text>
+<text x="973.0" y="298" class="t8" text-anchor="start">SB-101A–F soot blowers</text>
+<text x="810" y="470" class="t11 b" text-anchor="middle">RADIANT SECTION (cabin)</text>
+<text x="810" y="486" class="t9" text-anchor="middle">80 tubes, 6" Sch 40 A335 P9, 4 passes x 20</text>
+<text x="810" y="499" class="t9" text-anchor="middle">avg flux ≈ 34 kW/m², area ≈ 766 m²</text>
+<text x="810" y="512" class="t9" text-anchor="middle">bridgewall ≈ 845 °C (760–900)</text>
+<text x="830" y="588" class="t9" text-anchor="middle">B-101A–H: 8 forced-draft gas burners (floor-fired)</text>
+<text x="632.0" y="698" class="t9" text-anchor="end">hot-air</text>
+<text x="632.0" y="710" class="t9" text-anchor="end">windbox</text>
+<rect x="670.0" y="716" width="26" height="8" rx="0" class="box"/>
+<text x="664.0" y="736" class="t8" text-anchor="end">D-102 emergency air doors (FO)</text>
+<rect x="30" y="30" width="430" height="132" rx="0" class="box"/>
+<rect x="30" y="30" width="430" height="20" rx="0" class="hdr"/>
+<text x="40" y="45" class="t10 b" text-anchor="start">H-101 CRUDE CHARGE HEATER — DESIGN CASE (as-new, clean)</text>
+<text x="40" y="66" class="t10" text-anchor="start">Crude: Alaska North Slope, 50,000 bbl/d (286 t/h), 250 → 360 °C</text>
+<text x="40" y="80" class="t10" text-anchor="start">Absorbed 35.0 MW (radiant ≈ 26 / convection ≈ 9); APH duty ≈ 4.3 MW</text>
+<text x="40" y="94" class="t10" text-anchor="start">Fired 38.5 MW LHV, efficiency ≈ 91 % LHV, stack ≈ 155 °C</text>
+<text x="40" y="108" class="t10" text-anchor="start">Balanced draft: FD fan K-101 + ID fan K-102 (VFDs); arch −2.5 mmH2O</text>
+<text x="40" y="122" class="t10" text-anchor="start">Excess O2 3.0 % dry at arch (15 % excess air); hot air ≈ 300 °C</text>
+<text x="40" y="136" class="t10" text-anchor="start">TMT limit 600 °C; coil ΔP clean ≈ 6.0 bar/pass, limit 8.4 bar</text>
+<text x="40" y="150" class="t10" text-anchor="start">Fan trip → natural-draft runback ≤ 60 % firing; decoke by pigging ≈ 4 d</text>
+<polygon points="24,267.0 170,267.0 184,280 170,293.0 24,293.0" class="box"/>
+<text x="30" y="279" class="t9 b" text-anchor="start">FROM PREHEAT TRAIN</text>
+<text x="30" y="290" class="t8" text-anchor="start">E-101 hot end / P-101A/B</text>
+<polyline points="184,280 695.0,280" class="proc" marker-end="url(#ar)"/>
+<polygon points="225,269 238,280 225,291 212,280" class="box"/>
+<text x="225" y="284" class="t9 b" text-anchor="middle">1</text>
+<polygon points="321,271 339,289 339,271 321,289" class="box"/>
+<polyline points="330,280 330,260" class="thin"/>
+<path d="M319,260 A11,11 0 0,1 341,260 z" class="box"/>
+<text x="330" y="238" class="t10 b" text-anchor="middle">FV-1101..1104</text>
+<text x="330" y="302" class="t9" text-anchor="middle">4 pass flow valves (FO)</text>
+<rect x="311" y="179" width="38" height="38" rx="0" class="box"/>
+<circle cx="330" cy="198" r="19" class="box"/>
+<polyline points="311,198 349,198" class="thin"/>
+<text x="330" y="194" class="t10 b" text-anchor="middle">FIC</text>
+<text x="330" y="210" class="t9" text-anchor="middle">1101-04</text>
+<polyline points="330,217 330,228" class="sig"/>
+<polygon points="420,269 433,280 420,291 407,280" class="box"/>
+<text x="420" y="284" class="t9 b" text-anchor="middle">2</text>
+<text x="440" y="272" class="t9" text-anchor="start">4 passes (A–D), 71.5 t/h each</text>
+<polyline points="467,273 477,287" class="thin"/>
+<polyline points="473,273 483,287" class="thin"/>
+<polyline points="965.0,374 1065.0,374 1065.0,452 1014.0,452" class="proc" marker-end="url(#ar)"/>
+<polygon points="1065.0,399 1078.0,410 1065.0,421 1052.0,410" class="box"/>
+<text x="1065.0" y="414" class="t9 b" text-anchor="middle">3</text>
+<text x="1059.0" y="368" class="t9" text-anchor="end">≈ 292 °C</text>
+<polyline points="1014.0,650 1515,650 1515,520 1545,520" class="proc" marker-end="url(#ar)"/>
+<polygon points="1080.0,639 1093.0,650 1080.0,661 1067.0,650" class="box"/>
+<text x="1080.0" y="654" class="t9 b" text-anchor="middle">4</text>
+<polygon points="1515,589 1528,600 1515,611 1502,600" class="box"/>
+<text x="1515" y="604" class="t9 b" text-anchor="middle">5</text>
+<circle cx="1460" cy="650" r="3" fill="#000"/>
+<rect x="1441" y="573" width="38" height="38" rx="0" class="box"/>
+<circle cx="1460" cy="592" r="19" class="box"/>
+<polyline points="1441,592 1479,592" class="thin"/>
+<text x="1460" y="588" class="t10 b" text-anchor="middle">TIC</text>
+<text x="1460" y="604" class="t10" text-anchor="middle">1110</text>
+<polyline points="1460,611 1460,650" class="thin"/>
+<text x="1100.0" y="666" class="t9" text-anchor="start">transfer line 360 °C, 2.5 barg (V+L)</text>
+<rect x="1545" y="230" width="70" height="560" rx="30" class="eq"/>
+<polyline points="1545,270 1595,270" class="thin"/>
+<polyline points="1545,302 1595,302" class="thin"/>
+<polyline points="1545,334 1595,334" class="thin"/>
+<polyline points="1545,366 1595,366" class="thin"/>
+<polyline points="1545,398 1595,398" class="thin"/>
+<polyline points="1545,430 1595,430" class="thin"/>
+<polyline points="1545,462 1595,462" class="thin"/>
+<polyline points="1545,494 1595,494" class="thin"/>
+<polyline points="1545,526 1595,526" class="thin"/>
+<polyline points="1545,558 1595,558" class="thin"/>
+<polyline points="1545,590 1595,590" class="thin"/>
+<polyline points="1545,622 1595,622" class="thin"/>
+<polyline points="1545,654 1595,654" class="thin"/>
+<polyline points="1545,686 1595,686" class="thin"/>
+<polyline points="1545,718 1595,718" class="thin"/>
+<polyline points="1545,750 1595,750" class="thin"/>
+<text x="1580" y="215" class="t11 b" text-anchor="middle">C-101</text>
+<text x="1580" y="810" class="t9" text-anchor="middle">ATMOSPHERIC COLUMN</text>
+<text x="1580" y="822" class="t9" text-anchor="middle">(boundary)</text>
+<text x="1549" y="512" class="t8" text-anchor="start">flash zone</text>
+<polyline points="980,540 980,424" class="flue" marker-end="url(#arg)"/>
+<polygon points="980,547 993,558 980,569 967,558" class="box"/>
+<text x="980" y="562" class="t9 b" text-anchor="middle">11</text>
+<rect x="1200" y="290" width="120" height="150" rx="0" class="eq"/>
+<polyline points="1260.0,290 1260.0,440" class="thin"/>
+<polyline points="1204,320.0 1316,310.0" class="grid"/>
+<polyline points="1204,331.25 1316,321.25" class="grid"/>
+<polyline points="1204,342.5 1316,332.5" class="grid"/>
+<polyline points="1204,353.75 1316,343.75" class="grid"/>
+<polyline points="1204,365.0 1316,355.0" class="grid"/>
+<polyline points="1204,376.25 1316,366.25" class="grid"/>
+<polyline points="1204,387.5 1316,377.5" class="grid"/>
+<polyline points="1204,398.75 1316,388.75" class="grid"/>
+<polyline points="1204,410.0 1316,400.0" class="grid"/>
+<rect x="1194" y="318" width="132" height="94" rx="0" class="thin"/>
+<text x="1230.0" y="304" class="t8 b" text-anchor="middle">AIR</text>
+<text x="1290.0" y="304" class="t8 b" text-anchor="middle">GAS</text>
+<text x="1260.0" y="456" class="t11 b" text-anchor="middle">E-102</text>
+<text x="1260.0" y="468" class="t8" text-anchor="middle">regenerative APH (rotor)</text>
+<polyline points="855.0,188 1290,188 1290,290" class="flue" marker-end="url(#arg)"/>
+<polygon points="1170,177 1183,188 1170,199 1157,188" class="box"/>
+<text x="1170" y="192" class="t9 b" text-anchor="middle">12</text>
+<text x="863.0" y="182" class="t9" text-anchor="start">flue ≈ 390 °C</text>
+<polyline points="1290,440 1290,480 1328,480" class="flue" marker-end="url(#arg)"/>
+<circle cx="1350" cy="480" r="22" class="box"/>
+<path d="M1337.9,493.2 L1368.7,475.6 M1337.9,466.8 L1368.7,484.4" class="thin"/>
+<text x="1350" y="516" class="t10 b" text-anchor="middle">K-102 ID FAN</text>
+<text x="1350" y="528" class="t8" text-anchor="middle">VFD, ≈ 40 kW</text>
+<polyline points="1372,480 1400,480 1400,130 855.0,130" class="flue" marker-end="url(#arg)"/>
+<polygon points="1400,369 1413,380 1400,391 1387,380" class="box"/>
+<text x="1400" y="384" class="t9 b" text-anchor="middle">13</text>
+<polygon points="1100,119 1113,130 1100,141 1087,130" class="box"/>
+<text x="1100" y="134" class="t9 b" text-anchor="middle">14</text>
+<text x="1395" y="122" class="t9" text-anchor="end">≈ 155 °C to stack</text>
+<polyline points="830,110 830,58" class="flue" marker-end="url(#arg)"/>
+<text x="863.0" y="74" class="t9" text-anchor="start">to atmosphere</text>
+<rect x="1343" y="381" width="38" height="38" rx="0" class="box"/>
+<circle cx="1362" cy="400" r="19" class="box"/>
+<polyline points="1343,400 1381,400" class="thin"/>
+<text x="1362" y="396" class="t10 b" text-anchor="middle">TIC</text>
+<text x="1362" y="412" class="t10" text-anchor="middle">1345</text>
+<polyline points="1343,406 1290,458" class="thin"/>
+<text x="1362" y="374" class="t8" text-anchor="middle">≥ 140 °C</text>
+<rect x="1331" y="547" width="38" height="38" rx="0" class="box"/>
+<circle cx="1350" cy="566" r="19" class="box"/>
+<polyline points="1331,566 1369,566" class="thin"/>
+<text x="1350" y="562" class="t10 b" text-anchor="middle">PIC</text>
+<text x="1350" y="578" class="t10" text-anchor="middle">1311</text>
+<polyline points="1350,547 1350,502" class="sig"/>
+<text x="1374" y="570" class="t8" text-anchor="start">arch draft</text>
+<polyline points="1150,570 1208,570" class="util" marker-end="url(#ar)"/>
+<polygon points="1185,577 1198,588 1185,599 1172,588" class="box"/>
+<text x="1185" y="592" class="t9 b" text-anchor="middle">8</text>
+<text x="1150" y="564" class="t8" text-anchor="start">ambient</text>
+<circle cx="1230" cy="570" r="22" class="box"/>
+<path d="M1217.9,583.2 L1248.7,565.6 M1217.9,556.8 L1248.7,574.4" class="thin"/>
+<text x="1230" y="606" class="t10 b" text-anchor="middle">K-101 FD FAN</text>
+<text x="1230" y="618" class="t8" text-anchor="middle">VFD, ≈ 30 kW</text>
+<polyline points="1230,548 1230,440" class="util" marker-end="url(#ar)"/>
+<polygon points="1230,469 1243,480 1230,491 1217,480" class="box"/>
+<text x="1230" y="484" class="t9 b" text-anchor="middle">9</text>
+<polyline points="1230,290 1230,260 1120,260 1120,700.0 1020.0,700.0" class="util" marker-end="url(#ar)"/>
+<polygon points="1120,509 1133,520 1120,531 1107,520" class="box"/>
+<text x="1120" y="524" class="t9 b" text-anchor="middle">10</text>
+<text x="1128" y="254" class="t9" text-anchor="start">hot air ≈ 300 °C</text>
+<rect x="1151" y="495" width="38" height="38" rx="0" class="box"/>
+<circle cx="1170" cy="514" r="19" class="box"/>
+<polyline points="1151,514 1189,514" class="thin"/>
+<text x="1170" y="510" class="t10 b" text-anchor="middle">FIC</text>
+<text x="1170" y="526" class="t10" text-anchor="middle">1341</text>
+<polyline points="1189,514 1216,554" class="sig"/>
+<rect x="486.0" y="447" width="38" height="38" rx="0" class="box"/>
+<circle cx="505.0" cy="466" r="19" class="box"/>
+<polyline points="486.0,466 524.0,466" class="thin"/>
+<text x="505.0" y="462" class="t10 b" text-anchor="middle">AIC</text>
+<text x="505.0" y="478" class="t10" text-anchor="middle">1321</text>
+<polyline points="524.0,466 624.0,466" class="thin"/>
+<text x="505.0" y="438" class="t9" text-anchor="middle">arch O2 (dry)</text>
+<polyline points="505.0,485 505.0,752 1170,752 1170,533" class="sig"/>
+<text x="720" y="748" class="t8" text-anchor="start">AIC-1321 → FIC-1341 (O2 → combustion air → FD fan speed)</text>
+<text x="608.0" y="626" class="t9 i" text-anchor="end">tramp air</text>
+<text x="608.0" y="638" class="t9 i" text-anchor="end">(leakage, Type B)</text>
+<polyline points="576.0,648 618.0,648" class="util" marker-end="url(#ar)"/>
+<polygon points="24,783.0 170,783.0 184,796 170,809.0 24,809.0" class="box"/>
+<text x="30" y="795" class="t9 b" text-anchor="start">REFINERY FUEL GAS</text>
+<text x="30" y="806" class="t8" text-anchor="start">header ≈ 4.5 barg</text>
+<polyline points="184,796 215,796" class="fuel" marker-end="url(#ar)"/>
+<rect x="215" y="736" width="50" height="110" rx="22" class="eq"/>
+<text x="278" y="816" class="t11 b" text-anchor="start">V-101</text>
+<text x="278" y="828" class="t9" text-anchor="start">FG KO drum</text>
+<polyline points="265,756 300,756 300,766 988.0,766" class="fuel"/>
+<polygon points="345,755 358,766 345,777 332,766" class="box"/>
+<text x="345" y="770" class="t9 b" text-anchor="middle">6</text>
+<polygon points="411,757 429,775 429,757 411,775" class="box"/>
+<polyline points="420,766 420,746" class="thin"/>
+<path d="M409,746 A11,11 0 0,1 431,746 z" class="box"/>
+<text x="420" y="724" class="t10 b" text-anchor="middle">PV-1202</text>
+<text x="420" y="788" class="t9" text-anchor="middle">FC</text>
+<rect x="401" y="665" width="38" height="38" rx="0" class="box"/>
+<circle cx="420" cy="684" r="19" class="box"/>
+<polyline points="401,684 439,684" class="thin"/>
+<text x="420" y="680" class="t10 b" text-anchor="middle">PIC</text>
+<text x="420" y="696" class="t10" text-anchor="middle">1202</text>
+<polyline points="420,703 420,714" class="sig"/>
+<polygon points="491,757 509,775 509,757 491,775" class="box"/>
+<polyline points="500,766 500,748" class="thin"/>
+<rect x="492" y="732" width="16" height="16" rx="0" class="box"/>
+<text x="500" y="744" class="t9" text-anchor="middle">S</text>
+<text x="500" y="726" class="t10 b" text-anchor="middle">XV-1201/1202</text>
+<text x="500" y="788" class="t9" text-anchor="middle">SIS double block</text>
+<polyline points="672.0,766 672.0,686" class="fuel"/>
+<polyline points="717.1428571428571,766 717.1428571428571,686" class="fuel"/>
+<polyline points="762.2857142857143,766 762.2857142857143,686" class="fuel"/>
+<polyline points="807.4285714285714,766 807.4285714285714,686" class="fuel"/>
+<polyline points="852.5714285714286,766 852.5714285714286,686" class="fuel"/>
+<polyline points="897.7142857142858,766 897.7142857142858,686" class="fuel"/>
+<polyline points="942.8571428571429,766 942.8571428571429,686" class="fuel"/>
+<polyline points="988.0,766 988.0,686" class="fuel"/>
+<text x="662.0" y="782" class="t9" text-anchor="start">burner manifold 1.2 barg, 2,860 kg/h, LHV 48.5 MJ/kg</text>
+<polyline points="1460,573 1460,550 1350,550 1350,802 440,802 440,684 439,684" class="sig"/>
+<text x="1080" y="798" class="t8" text-anchor="start">COT → fuel-gas pressure cascade</text>
+<polygon points="24,817.0 170,817.0 184,830 170,843.0 24,843.0" class="box"/>
+<text x="30" y="829" class="t9 b" text-anchor="start">PILOT GAS</text>
+<text x="30" y="840" class="t8" text-anchor="start">0.7 barg</text>
+<polyline points="184,830 642.0,830" class="util" marker-end="url(#ar)"/>
+<polygon points="560,819 573,830 560,841 547,830" class="box"/>
+<text x="560" y="834" class="t9 b" text-anchor="middle">7</text>
+<text x="646.0" y="834" class="t9" text-anchor="start">to pilots B-101A–H</text>
+<polygon points="24,337.0 170,337.0 184,350 170,363.0 24,363.0" class="box"/>
+<text x="30" y="349" class="t9 b" text-anchor="start">LP STEAM 3.5 barg</text>
+<polyline points="184,350 695.0,350" class="util" marker-end="url(#ar)"/>
+<polygon points="655.0,339 668.0,350 655.0,361 642.0,350" class="box"/>
+<text x="655.0" y="354" class="t9 b" text-anchor="middle">16</text>
+<text x="639.0" y="342" class="t9" text-anchor="end">soot blowing (+ SB-102A/B on APH)</text>
+<polyline points="575.0,350 575.0,580 620.0,580" class="util" marker-end="url(#ar)"/>
+<polygon points="575.0,529 588.0,540 575.0,551 562.0,540" class="box"/>
+<text x="575.0" y="544" class="t9 b" text-anchor="middle">15</text>
+<text x="614.0" y="572" class="t9" text-anchor="end">snuffing / purge</text>
+<rect x="30" y="864" width="1068" height="223" rx="0" class="box"/>
+<rect x="30" y="864" width="1068" height="13" rx="0" class="hdr"/>
+<text x="30" y="859" class="t10 b" text-anchor="start">STREAM TABLE — design case Rev B (preliminary hand balance; physics model recomputes)</text>
+<text x="34" y="874" class="t8 b" text-anchor="start">No.</text>
+<polyline points="60,864 60,1087" class="grid"/>
+<text x="64" y="874" class="t8 b" text-anchor="start">Stream</text>
+<polyline points="310,864 310,1087" class="grid"/>
+<text x="314" y="874" class="t8 b" text-anchor="start">Phase</text>
+<polyline points="350,864 350,1087" class="grid"/>
+<text x="354" y="874" class="t8 b" text-anchor="start">Mass flow</text>
+<polyline points="434,864 434,1087" class="grid"/>
+<text x="438" y="874" class="t8 b" text-anchor="start">T °C</text>
+<polyline points="480,864 480,1087" class="grid"/>
+<text x="484" y="874" class="t8 b" text-anchor="start">Pressure</text>
+<polyline points="578,864 578,1087" class="grid"/>
+<text x="582" y="874" class="t8 b" text-anchor="start">Notes</text>
+<polyline points="1098,864 1098,1087" class="grid"/>
+<polyline points="30,878 1098,878" class="grid"/>
+<text x="34" y="887" class="t8" text-anchor="start">1</text>
+<text x="64" y="887" class="t8" text-anchor="start">Crude from preheat train</text>
+<text x="314" y="887" class="t8" text-anchor="start">L</text>
+<text x="354" y="887" class="t8" text-anchor="start">286 t/h</text>
+<text x="438" y="887" class="t8" text-anchor="start">250</text>
+<text x="484" y="887" class="t8" text-anchor="start">11.0 barg</text>
+<text x="582" y="887" class="t8" text-anchor="start">ANS, API 32.3; 4 pass flow valves FV-1101..1104</text>
+<polyline points="30,891 1098,891" class="grid"/>
+<text x="34" y="900" class="t8" text-anchor="start">2</text>
+<text x="64" y="900" class="t8" text-anchor="start">Pass inlets A–D</text>
+<text x="314" y="900" class="t8" text-anchor="start">L</text>
+<text x="354" y="900" class="t8" text-anchor="start">4 x 71.5 t/h</text>
+<text x="438" y="900" class="t8" text-anchor="start">250</text>
+<text x="484" y="900" class="t8" text-anchor="start">8.5 barg</text>
+<text x="582" y="900" class="t8" text-anchor="start">≈ 1.6 m/s, G ≈ 1,065 kg/m²s</text>
+<polyline points="30,904 1098,904" class="grid"/>
+<text x="34" y="913" class="t8" text-anchor="start">3</text>
+<text x="64" y="913" class="t8" text-anchor="start">Crossover (convection → radiant)</text>
+<text x="314" y="913" class="t8" text-anchor="start">L</text>
+<text x="354" y="913" class="t8" text-anchor="start">4 x 71.5 t/h</text>
+<text x="438" y="913" class="t8" text-anchor="start">≈ 292</text>
+<text x="484" y="913" class="t8" text-anchor="start">≈ 7.8 barg</text>
+<text x="582" y="913" class="t8" text-anchor="start">TT-1131..1134</text>
+<polyline points="30,917 1098,917" class="grid"/>
+<text x="34" y="926" class="t8" text-anchor="start">4</text>
+<text x="64" y="926" class="t8" text-anchor="start">Pass outlets A–D</text>
+<text x="314" y="926" class="t8" text-anchor="start">V+L</text>
+<text x="354" y="926" class="t8" text-anchor="start">4 x 71.5 t/h</text>
+<text x="438" y="926" class="t8" text-anchor="start">360</text>
+<text x="484" y="926" class="t8" text-anchor="start">≈ 2.6 barg</text>
+<text x="582" y="926" class="t8" text-anchor="start">TT-1111..1114; coil ΔP clean ≈ 6.0 bar</text>
+<polyline points="30,930 1098,930" class="grid"/>
+<text x="34" y="939" class="t8" text-anchor="start">5</text>
+<text x="64" y="939" class="t8" text-anchor="start">Transfer line to C-101</text>
+<text x="314" y="939" class="t8" text-anchor="start">V+L</text>
+<text x="354" y="939" class="t8" text-anchor="start">286 t/h</text>
+<text x="438" y="939" class="t8" text-anchor="start">360</text>
+<text x="484" y="939" class="t8" text-anchor="start">2.5 barg</text>
+<text x="582" y="939" class="t8" text-anchor="start">vapor fraction from model (TBP); sets C-101 flash-zone vaporization / cuts</text>
+<polyline points="30,943 1098,943" class="grid"/>
+<text x="34" y="952" class="t8" text-anchor="start">6</text>
+<text x="64" y="952" class="t8" text-anchor="start">Fuel gas to burners</text>
+<text x="314" y="952" class="t8" text-anchor="start">V</text>
+<text x="354" y="952" class="t8" text-anchor="start">2,860 kg/h</text>
+<text x="438" y="952" class="t8" text-anchor="start">40</text>
+<text x="484" y="952" class="t8" text-anchor="start">1.2 barg</text>
+<text x="582" y="952" class="t8" text-anchor="start">80 CH4/8 C2H6/2 C3H8/8 H2/2 N2 mol%, 48.5 MJ/kg</text>
+<polyline points="30,956 1098,956" class="grid"/>
+<text x="34" y="965" class="t8" text-anchor="start">7</text>
+<text x="64" y="965" class="t8" text-anchor="start">Pilot gas</text>
+<text x="314" y="965" class="t8" text-anchor="start">V</text>
+<text x="354" y="965" class="t8" text-anchor="start">≈ 25 kg/h</text>
+<text x="438" y="965" class="t8" text-anchor="start">40</text>
+<text x="484" y="965" class="t8" text-anchor="start">0.7 barg</text>
+<text x="582" y="965" class="t8" text-anchor="start">continuous pilots</text>
+<polyline points="30,969 1098,969" class="grid"/>
+<text x="34" y="978" class="t8" text-anchor="start">8</text>
+<text x="64" y="978" class="t8" text-anchor="start">Ambient air to FD fan</text>
+<text x="314" y="978" class="t8" text-anchor="start">V</text>
+<text x="354" y="978" class="t8" text-anchor="start">57,850 kg/h</text>
+<text x="438" y="978" class="t8" text-anchor="start">25</text>
+<text x="484" y="978" class="t8" text-anchor="start">atm</text>
+<text x="582" y="978" class="t8" text-anchor="start">FIC-1341</text>
+<polyline points="30,982 1098,982" class="grid"/>
+<text x="34" y="991" class="t8" text-anchor="start">9</text>
+<text x="64" y="991" class="t8" text-anchor="start">Cold air to APH</text>
+<text x="314" y="991" class="t8" text-anchor="start">V</text>
+<text x="354" y="991" class="t8" text-anchor="start">57,850 kg/h</text>
+<text x="438" y="991" class="t8" text-anchor="start">≈ 30</text>
+<text x="484" y="991" class="t8" text-anchor="start">+130 mmH2O</text>
+<text x="582" y="991" class="t8" text-anchor="start">cold-air bypass TV-1345 (closed at design)</text>
+<polyline points="30,995 1098,995" class="grid"/>
+<text x="34" y="1004" class="t8" text-anchor="start">10</text>
+<text x="64" y="1004" class="t8" text-anchor="start">Hot air to windbox</text>
+<text x="314" y="1004" class="t8" text-anchor="start">V</text>
+<text x="354" y="1004" class="t8" text-anchor="start">54,370 kg/h</text>
+<text x="438" y="1004" class="t8" text-anchor="start">≈ 300</text>
+<text x="484" y="1004" class="t8" text-anchor="start">+60 mmH2O</text>
+<text x="582" y="1004" class="t8" text-anchor="start">15 % excess air; ≈ 6 % of FD air leaks to gas side in APH</text>
+<polyline points="30,1008 1098,1008" class="grid"/>
+<text x="34" y="1017" class="t8" text-anchor="start">11</text>
+<text x="64" y="1017" class="t8" text-anchor="start">Flue gas at bridgewall</text>
+<text x="314" y="1017" class="t8" text-anchor="start">V</text>
+<text x="354" y="1017" class="t8" text-anchor="start">57,230 kg/h</text>
+<text x="438" y="1017" class="t8" text-anchor="start">≈ 845</text>
+<text x="484" y="1017" class="t8" text-anchor="start">−2.5 mmH2O</text>
+<text x="582" y="1017" class="t8" text-anchor="start">wet mol%: CO2 8.4, H2O 16.6, O2 2.5, N2 72.5</text>
+<polyline points="30,1021 1098,1021" class="grid"/>
+<text x="34" y="1030" class="t8" text-anchor="start">12</text>
+<text x="64" y="1030" class="t8" text-anchor="start">Flue gas, convection outlet → APH</text>
+<text x="314" y="1030" class="t8" text-anchor="start">V</text>
+<text x="354" y="1030" class="t8" text-anchor="start">57,230 kg/h</text>
+<text x="438" y="1030" class="t8" text-anchor="start">≈ 390</text>
+<text x="484" y="1030" class="t8" text-anchor="start">−20 mmH2O</text>
+<text x="582" y="1030" class="t8" text-anchor="start">TT-1303, AT-1327</text>
+<polyline points="30,1034 1098,1034" class="grid"/>
+<text x="34" y="1043" class="t8" text-anchor="start">13</text>
+<text x="64" y="1043" class="t8" text-anchor="start">Flue gas, APH → ID fan</text>
+<text x="314" y="1043" class="t8" text-anchor="start">V</text>
+<text x="354" y="1043" class="t8" text-anchor="start">60,700 kg/h</text>
+<text x="438" y="1043" class="t8" text-anchor="start">≈ 150</text>
+<text x="484" y="1043" class="t8" text-anchor="start">−120 mmH2O</text>
+<text x="582" y="1043" class="t8" text-anchor="start">includes APH leak air; TIC-1345 ≥ 140 °C</text>
+<polyline points="30,1047 1098,1047" class="grid"/>
+<text x="34" y="1056" class="t8" text-anchor="start">14</text>
+<text x="64" y="1056" class="t8" text-anchor="start">Flue gas, ID fan → stack</text>
+<text x="314" y="1056" class="t8" text-anchor="start">V</text>
+<text x="354" y="1056" class="t8" text-anchor="start">60,700 kg/h</text>
+<text x="438" y="1056" class="t8" text-anchor="start">≈ 155</text>
+<text x="484" y="1056" class="t8" text-anchor="start">+15 mmH2O</text>
+<text x="582" y="1056" class="t8" text-anchor="start">stack CEMS AT-1326 (O2) / AT-1325 (NOx)</text>
+<polyline points="30,1060 1098,1060" class="grid"/>
+<text x="34" y="1069" class="t8" text-anchor="start">15</text>
+<text x="64" y="1069" class="t8" text-anchor="start">LP steam — snuffing / purge</text>
+<text x="314" y="1069" class="t8" text-anchor="start">V</text>
+<text x="354" y="1069" class="t8" text-anchor="start">intermittent</text>
+<text x="438" y="1069" class="t8" text-anchor="start">150</text>
+<text x="484" y="1069" class="t8" text-anchor="start">3.5 barg</text>
+<text x="582" y="1069" class="t8" text-anchor="start">XV-1401 firebox, HV-1402 header boxes</text>
+<polyline points="30,1073 1098,1073" class="grid"/>
+<text x="34" y="1082" class="t8" text-anchor="start">16</text>
+<text x="64" y="1082" class="t8" text-anchor="start">LP steam — soot blowing</text>
+<text x="314" y="1082" class="t8" text-anchor="start">V</text>
+<text x="354" y="1082" class="t8" text-anchor="start">intermittent</text>
+<text x="438" y="1082" class="t8" text-anchor="start">150</text>
+<text x="484" y="1082" class="t8" text-anchor="start">3.5 barg</text>
+<text x="582" y="1082" class="t8" text-anchor="start">SB-101A–F convection, SB-102A/B APH</text></svg>

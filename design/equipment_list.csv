@@ -1,0 +1,23 @@
+equipment_tag,equipment_id,name,description,key_design_data,status
+H-101,heater_h101,Crude Charge Heater,"Horizontal-tube cabin heater, balanced draft (FD + ID fans) with regenerative air preheater, floor-fired, 4-pass process coil (convection then radiant)","Absorbed 35 MW; fired 38.5 MW LHV; eta ~91% LHV; 50,000 bbl/d ANS 250->360 C",ASSUMED
+H-101 RAD,radiant_section,Radiant Section,Refractory-lined cabin firebox; tubes horizontal along side walls; bridgewall TCs at radiant exit,Radiant duty ~26 MW (74%); bridgewall ~845 C (envelope 760-900 C); arch draft -2.5 mmH2O,ASSUMED
+H-101 RC,radiant_coil,Radiant Coil,"4 passes x 20 tubes, 6in Sch 40 (OD 168.3 mm, wall 7.11 mm), ASTM A335 P9, 18.3 m effective length",Area ~766 m2; avg flux ~34 kW/m2; peak/avg ~1.8; TMT limit 600 C; 2 skin TCs per pass,ASSUMED
+H-101 CONV,convection_section,Convection Section,"2 bare shield rows + 6 studded rows, process coil (4 passes), steam soot blowers",Duty ~9 MW (26%); flue ~845 -> 390 C; crude 250 -> ~292 C,ASSUMED
+B-101A-H,burners,Process Burners (8),"Forced-draft low-NOx gas burners, floor-mounted in one row, common hot-air windbox (registers set at tuning)",4.8 MW normal / 5.8 MW design (120%) each; fuel-gas pressure 1.2 barg; hot air ~300 C,ASSUMED
+V-101,fuel_gas_ko_drum,Fuel Gas Knock-Out Drum,Vertical drum upstream of fuel-gas control valve; removes liquids/condensate; level trip,Design 6 barg / 120 C; LSHH trips heater,ASSUMED
+FG-101,fuel_gas_system,Fuel Gas System,"Refinery fuel gas header, KO drum, PCV, main and pilot shutoff valves, burner manifold","2,860 kg/h normal (~3,800 Nm3/h), LHV 48.5 MJ/kg",ASSUMED
+PG-101,pilot_gas_system,Pilot Gas System,Separate regulated pilot gas supply to continuous pilots on each burner,Pilot pressure 0.7 barg,ASSUMED
+S-101,stack,Stack,Self-supporting steel stack after ID fan; also serves natural-draft bypass path,Flue to stack ~155 C (ID discharge); ~400 C on bypass,ASSUMED
+D-101,bypass_dampers,Flue-Gas Bypass Damper,"Damper from convection outlet direct to stack, bypassing APH and ID fan; closed in balanced-draft operation (XV-1361)",Fails open; opens on FD/ID fan or APH rotor stop,ASSUMED
+D-102,bypass_dampers,Emergency Air Doors,Doors on burner windbox admitting ambient air for natural-draft operation (XV-1362),Fail open; natural-draft capability ~60% firing,ASSUMED
+E-102,air_preheater,Regenerative Air Preheater,"Rotary regenerative (Ljungstrom) APH, vertical shaft; heats combustion air with flue gas leaving the convection section; cold-air bypass TV-1345; steam soot blowers SB-102A/B",Duty ~4.3 MW; flue 390 -> 160 C; air 30 -> ~300 C; seal leakage ~6% of air as new,ASSUMED
+K-101,fd_fan,Forced Draft Fan,Centrifugal fan with VFD (SC-1341) delivering combustion air through APH to burner windbox,"57,850 kg/h; ~1.5 kPa; ~30 kW absorbed; 75 kW motor",ASSUMED
+K-102,id_fan,Induced Draft Fan,Centrifugal fan with VFD (SC-1351) drawing flue gas through APH; controls arch draft,"60,700 kg/h at ~150 C; ~1.3 kPa; ~40 kW absorbed; 90 kW motor",ASSUMED
+AN-101,flue_gas_analyzers,Flue Gas Analyzers,"Arch O2 (extractive, dry basis) and CO; stack CEMS O2 and NOx",O2 normal 3.0% dry; CO < 50 ppm,ASSUMED
+FC-101,pass_flow_control,Pass Flow Control Station,Four pass flow control valves with SIS low-flow transmitters; manual pass balancing on outlet temperature,71.5 t/h per pass,ASSUMED
+TL-101,transfer_line,Transfer Line,Combined coil outlet header to atmospheric column flash zone,"~2.5 barg, 360 C, two-phase",ASSUMED
+SS-101,snuffing_steam,Snuffing / Purge Steam,LP steam to firebox and header boxes for fire extinguishing and pre-light-off purge,LP steam 3.5 barg,ASSUMED
+SB-101A-F,soot_blowers,Convection Soot Blowers (6),"Retractable steam soot blowers in studded convection rows (SB-101A-F) plus APH blowers SB-102A/B, sequenced",LP steam 3.5 barg; typical one sequence per day,ASSUMED
+BMS-101,bms_sis,Burner Management System / SIS,"SIL-rated logic: fuel trips, pass low-flow trip, firebox high pressure, fan/APH-stop natural-draft runback, purge permissive, flame supervision",See ctrl_alarm_trip_register and safe_bms_cause_and_effect,ASSUMED
+P-101A/B,crude_charge_pumps,Crude Charge Pumps (boundary),Upstream of the preheat train; deliver crude to heater inlet header (boundary equipment),Heater inlet header ~11 barg,BOUNDARY
+C-101,atmospheric_column,Atmospheric Crude Column (boundary),Receives heater effluent in flash zone (boundary equipment),Flash zone ~1.5 barg,BOUNDARY

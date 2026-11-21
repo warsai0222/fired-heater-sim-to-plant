@@ -1,0 +1,525 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 1188" width="420mm" height="297mm">
+<style>
+ text{font-family:Arial,Helvetica,sans-serif;fill:#111}
+ .t8{font-size:8px}.t9{font-size:9px}.t10{font-size:10px}.t11{font-size:11px}.t12{font-size:12px}
+ .t14{font-size:14px}.t16{font-size:16px}.t20{font-size:20px}.b{font-weight:bold}.i{font-style:italic}
+ .proc{stroke:#000;stroke-width:2.4;fill:none}
+ .fuel{stroke:#000;stroke-width:1.8;fill:none}
+ .util{stroke:#000;stroke-width:1.4;fill:none}
+ .flue{stroke:#666;stroke-width:1.6;fill:none;stroke-dasharray:10 4}
+ .sig{stroke:#000;stroke-width:1;fill:none;stroke-dasharray:6 3}
+ .thin{stroke:#000;stroke-width:1;fill:none}
+ .eq{stroke:#000;stroke-width:2;fill:#fff}
+ .refr{stroke:#000;stroke-width:2;fill:#f3efe9}
+ .box{stroke:#000;stroke-width:1;fill:#fff}
+ .grid{stroke:#999;stroke-width:.6}
+ .flame{stroke:#c0392b;stroke-width:1.4;fill:#f9d6c4}
+ .tube{stroke:#333;stroke-width:1;fill:#fff}
+ .hdr{fill:#e6eef4}
+ .red{fill:#b03a2e}
+</style>
+<defs>
+ <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+  <path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker>
+ <marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+  <path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#fff"/><rect x="10" y="10" width="1660" height="1168" rx="0" class="thin"/>
+<rect x="16" y="16" width="1648" height="1156" rx="0" class="thin"/>
+<rect x="1110" y="1012" width="554" height="160" rx="0" class="box"/>
+<text x="1122" y="1040" class="t12 b" text-anchor="start">DEMO REFINERY — UNIT 100 CRUDE DISTILLATION</text>
+<text x="1122" y="1064" class="t14 b" text-anchor="start">P&amp;ID — H-101 PROCESS COIL (4 PASSES)</text>
+<text x="1122" y="1088" class="t11" text-anchor="start">Drawing No. U100-PID-101     Rev B     Sheet 1 of 3</text>
+<text x="1122" y="1108" class="t11 b red" text-anchor="start">Status: PRELIMINARY — FOR REVIEW (not for construction)</text>
+<text x="1122" y="1128" class="t9" text-anchor="start">Basis: design/heater_design_reference.md, design/tag_register.csv</text>
+<text x="1122" y="1142" class="t9" text-anchor="start">Proposal §5 design basis (ASSUMED values, pending ChemE review)</text>
+<text x="1122" y="1158" class="t9" text-anchor="start">Date 2026-11-20   |   Synthetic demo project — fictional plant</text>
+<polyline points="1110,1048 1664,1048" class="grid"/>
+<polyline points="1110,1072 1664,1072" class="grid"/>
+<polyline points="1110,1094 1664,1094" class="grid"/>
+<polyline points="1110,1114 1664,1114" class="grid"/>
+<text x="30" y="40" class="t16 b" text-anchor="start">P&amp;ID U100-PID-101 — H-101 CRUDE CHARGE HEATER, PROCESS COIL</text>
+<polygon points="24,67.0 170,67.0 184,80 170,93.0 24,93.0" class="box"/>
+<text x="30" y="79" class="t9 b" text-anchor="start">FROM PREHEAT TRAIN</text>
+<text x="30" y="90" class="t8" text-anchor="start">E-101 / P-101A/B</text>
+<polyline points="184,80 200,80 200,810" class="proc"/>
+<text x="208" y="74" class="t9" text-anchor="start">16"-P-1100-A1 inlet header</text>
+<circle cx="260" cy="135" r="19" class="box"/>
+<polyline points="244,135 276,135" class="thin"/>
+<text x="260" y="131" class="t10 b" text-anchor="middle">TT</text>
+<text x="260" y="147" class="t10" text-anchor="middle">1100</text>
+<polyline points="241,135 200,135" class="thin"/>
+<circle cx="315" cy="135" r="19" class="box"/>
+<polyline points="299,135 331,135" class="thin"/>
+<text x="315" y="131" class="t10 b" text-anchor="middle">PT</text>
+<text x="315" y="147" class="t10" text-anchor="middle">1100</text>
+<polyline points="296,135 279,135" class="thin"/>
+<rect x="511" y="51" width="38" height="38" rx="0" class="box"/>
+<circle cx="530" cy="70" r="19" class="box"/>
+<polyline points="511,70 549,70" class="thin"/>
+<text x="530" y="66" class="t10 b" text-anchor="middle">FY</text>
+<text x="530" y="82" class="t10" text-anchor="middle">1100</text>
+<text x="553" y="66" class="t9" text-anchor="start">Σ FIC-1101..1104</text>
+<text x="553" y="78" class="t9" text-anchor="start">(total charge)</text>
+<rect x="615" y="150" width="175" height="770" rx="0" class="refr"/>
+<rect x="623" y="158" width="159" height="754" rx="0" class="box"/>
+<text x="702.5" y="140" class="t11 b" text-anchor="middle">H-101 CONVECTION SECTION</text>
+<rect x="890" y="150" width="280" height="770" rx="0" class="refr"/>
+<rect x="898" y="158" width="264" height="754" rx="0" class="box"/>
+<text x="1030.0" y="140" class="t11 b" text-anchor="middle">H-101 RADIANT SECTION</text>
+<text x="702.5" y="936" class="t9" text-anchor="middle">studded + 2 bare shield rows / pass</text>
+<text x="1030.0" y="936" class="t9" text-anchor="middle">20 tubes / pass, 6" Sch 40 A335 P9</text>
+<polyline points="200,255 637,255" class="proc"/>
+<text x="206" y="233" class="t8" text-anchor="start">6"-P-1101-A1</text>
+<polygon points="251,246 269,264 269,246 251,264" class="box"/>
+<polyline points="292,244 292,266" class="thin"/>
+<polyline points="298,244 298,266" class="thin"/>
+<circle cx="295" cy="193" r="19" class="box"/>
+<polyline points="279,193 311,193" class="thin"/>
+<text x="295" y="189" class="t10 b" text-anchor="middle">FT</text>
+<text x="295" y="205" class="t10" text-anchor="middle">1101</text>
+<polyline points="295,212 295,244" class="thin"/>
+<rect x="341" y="174" width="38" height="38" rx="0" class="box"/>
+<circle cx="360" cy="193" r="19" class="box"/>
+<polyline points="341,193 379,193" class="thin"/>
+<text x="360" y="189" class="t10 b" text-anchor="middle">FIC</text>
+<text x="360" y="205" class="t10" text-anchor="middle">1101</text>
+<polyline points="314,193 341,193" class="sig"/>
+<polygon points="351,246 369,264 369,246 351,264" class="box"/>
+<polyline points="360,255 360,235" class="thin"/>
+<path d="M349,235 A11,11 0 0,1 371,235 z" class="box"/>
+<polyline points="360,212 360,224" class="sig"/>
+<text x="360" y="279" class="t9 b" text-anchor="middle">FV-1101</text>
+<text x="360" y="290" class="t9" text-anchor="middle">FO</text>
+<polygon points="396,246 414,264 414,246 396,264" class="box"/>
+<polyline points="442,244 442,266" class="thin"/>
+<polyline points="448,244 448,266" class="thin"/>
+<circle cx="445" cy="193" r="19" class="box"/>
+<polyline points="429,193 461,193" class="thin"/>
+<text x="445" y="189" class="t10 b" text-anchor="middle">FT</text>
+<text x="445" y="205" class="t10" text-anchor="middle">1151</text>
+<polyline points="445,212 445,244" class="thin"/>
+<polyline points="464,193 480,193" class="sig"/>
+<text x="483" y="189" class="t8" text-anchor="start">to I-101</text>
+<text x="483" y="199" class="t8" text-anchor="start">LL 43 t/h</text>
+<circle cx="490" cy="307" r="19" class="box"/>
+<polyline points="474,307 506,307" class="thin"/>
+<text x="490" y="303" class="t10 b" text-anchor="middle">PT</text>
+<text x="490" y="319" class="t10" text-anchor="middle">1101</text>
+<polyline points="490,288 490,255" class="thin"/>
+<circle cx="518" cy="249" r="5" class="box"/>
+<circle cx="518" cy="261" r="5" fill="#000"/>
+<polygon points="536,246 554,264 554,246 536,264" class="box"/>
+<text x="545" y="239" class="t9 b" text-anchor="middle">XV-1105A</text>
+<polyline points="578,255 578,285" class="proc"/>
+<polyline points="570,285 586,285" class="proc"/>
+<text x="572" y="299" class="t8" text-anchor="middle">pig launcher</text>
+<text x="572" y="309" class="t8" text-anchor="middle">conn. (blinded)</text>
+<polyline points="637,255 637,213 659,297 681,213 703,297 725,213 747,297 769,213 768,255" class="proc"/>
+<text x="631" y="205" class="t10 b" text-anchor="start">PASS A</text>
+<polyline points="768,255 910,255" class="proc"/>
+<text x="796" y="247" class="t8" text-anchor="start">6"-P-1101-X</text>
+<circle cx="840" cy="307" r="19" class="box"/>
+<polyline points="824,307 856,307" class="thin"/>
+<text x="840" y="303" class="t10 b" text-anchor="middle">TT</text>
+<text x="840" y="319" class="t10" text-anchor="middle">1131</text>
+<polyline points="840,288 840,255" class="thin"/>
+<polyline points="910,255 920,210 948,300 976,210 1004,300 1032,210 1060,300 1088,210 1116,300 1144,210 1150,255" class="proc"/>
+<circle cx="976" cy="210" r="3" fill="#000"/>
+<circle cx="1012" cy="194" r="19" class="box"/>
+<polyline points="996,194 1028,194" class="thin"/>
+<text x="1012" y="190" class="t10 b" text-anchor="middle">TI</text>
+<text x="1012" y="206" class="t9" text-anchor="middle">1121A</text>
+<polyline points="976,210 995,202" class="thin"/>
+<circle cx="1088" cy="210" r="3" fill="#000"/>
+<circle cx="1124" cy="194" r="19" class="box"/>
+<polyline points="1108,194 1140,194" class="thin"/>
+<text x="1124" y="190" class="t10 b" text-anchor="middle">TI</text>
+<text x="1124" y="206" class="t9" text-anchor="middle">1121B</text>
+<polyline points="1088,210 1107,202" class="thin"/>
+<text x="906" y="319" class="t8" text-anchor="start">skin TCs at hot zone (peak flux)</text>
+<polyline points="1150,255 1330,255" class="proc"/>
+<circle cx="1205" cy="203" r="19" class="box"/>
+<polyline points="1189,203 1221,203" class="thin"/>
+<text x="1205" y="199" class="t10 b" text-anchor="middle">TT</text>
+<text x="1205" y="215" class="t10" text-anchor="middle">1111</text>
+<polyline points="1205,222 1205,255" class="thin"/>
+<polyline points="1240,255 1240,285" class="proc"/>
+<polyline points="1232,285 1248,285" class="proc"/>
+<text x="1244" y="299" class="t8" text-anchor="middle">pig receiver</text>
+<text x="1244" y="309" class="t8" text-anchor="middle">conn. (blinded)</text>
+<polygon points="1266,246 1284,264 1284,246 1266,264" class="box"/>
+<text x="1275" y="239" class="t9 b" text-anchor="middle">XV-1106A</text>
+<circle cx="1302" cy="249" r="5" class="box"/>
+<circle cx="1302" cy="261" r="5" fill="#000"/>
+<rect x="1186" y="312" width="38" height="38" rx="0" class="box"/>
+<circle cx="1205" cy="331" r="19" class="box"/>
+<polyline points="1186,331 1224,331" class="thin"/>
+<text x="1205" y="327" class="t10 b" text-anchor="middle">PDI</text>
+<text x="1205" y="343" class="t10" text-anchor="middle">1101</text>
+<text x="1227" y="331" class="t8" text-anchor="start">= PT-1101 − PT-1110</text>
+<text x="1227" y="341" class="t8" text-anchor="start">Hi 7.8 / HH 8.4 bar</text>
+<polyline points="200,440 637,440" class="proc"/>
+<text x="206" y="418" class="t8" text-anchor="start">6"-P-1102-A1</text>
+<polygon points="251,431 269,449 269,431 251,449" class="box"/>
+<polyline points="292,429 292,451" class="thin"/>
+<polyline points="298,429 298,451" class="thin"/>
+<circle cx="295" cy="378" r="19" class="box"/>
+<polyline points="279,378 311,378" class="thin"/>
+<text x="295" y="374" class="t10 b" text-anchor="middle">FT</text>
+<text x="295" y="390" class="t10" text-anchor="middle">1102</text>
+<polyline points="295,397 295,429" class="thin"/>
+<rect x="341" y="359" width="38" height="38" rx="0" class="box"/>
+<circle cx="360" cy="378" r="19" class="box"/>
+<polyline points="341,378 379,378" class="thin"/>
+<text x="360" y="374" class="t10 b" text-anchor="middle">FIC</text>
+<text x="360" y="390" class="t10" text-anchor="middle">1102</text>
+<polyline points="314,378 341,378" class="sig"/>
+<polygon points="351,431 369,449 369,431 351,449" class="box"/>
+<polyline points="360,440 360,420" class="thin"/>
+<path d="M349,420 A11,11 0 0,1 371,420 z" class="box"/>
+<polyline points="360,397 360,409" class="sig"/>
+<text x="360" y="464" class="t9 b" text-anchor="middle">FV-1102</text>
+<text x="360" y="475" class="t9" text-anchor="middle">FO</text>
+<polygon points="396,431 414,449 414,431 396,449" class="box"/>
+<polyline points="442,429 442,451" class="thin"/>
+<polyline points="448,429 448,451" class="thin"/>
+<circle cx="445" cy="378" r="19" class="box"/>
+<polyline points="429,378 461,378" class="thin"/>
+<text x="445" y="374" class="t10 b" text-anchor="middle">FT</text>
+<text x="445" y="390" class="t10" text-anchor="middle">1152</text>
+<polyline points="445,397 445,429" class="thin"/>
+<polyline points="464,378 480,378" class="sig"/>
+<text x="483" y="374" class="t8" text-anchor="start">to I-101</text>
+<text x="483" y="384" class="t8" text-anchor="start">LL 43 t/h</text>
+<circle cx="490" cy="492" r="19" class="box"/>
+<polyline points="474,492 506,492" class="thin"/>
+<text x="490" y="488" class="t10 b" text-anchor="middle">PT</text>
+<text x="490" y="504" class="t10" text-anchor="middle">1102</text>
+<polyline points="490,473 490,440" class="thin"/>
+<circle cx="518" cy="434" r="5" class="box"/>
+<circle cx="518" cy="446" r="5" fill="#000"/>
+<polygon points="536,431 554,449 554,431 536,449" class="box"/>
+<text x="545" y="424" class="t9 b" text-anchor="middle">XV-1105B</text>
+<polyline points="578,440 578,470" class="proc"/>
+<polyline points="570,470 586,470" class="proc"/>
+<text x="572" y="484" class="t8" text-anchor="middle">pig launcher</text>
+<text x="572" y="494" class="t8" text-anchor="middle">conn. (blinded)</text>
+<polyline points="637,440 637,398 659,482 681,398 703,482 725,398 747,482 769,398 768,440" class="proc"/>
+<text x="631" y="390" class="t10 b" text-anchor="start">PASS B</text>
+<polyline points="768,440 910,440" class="proc"/>
+<text x="796" y="432" class="t8" text-anchor="start">6"-P-1102-X</text>
+<circle cx="840" cy="492" r="19" class="box"/>
+<polyline points="824,492 856,492" class="thin"/>
+<text x="840" y="488" class="t10 b" text-anchor="middle">TT</text>
+<text x="840" y="504" class="t10" text-anchor="middle">1132</text>
+<polyline points="840,473 840,440" class="thin"/>
+<polyline points="910,440 920,395 948,485 976,395 1004,485 1032,395 1060,485 1088,395 1116,485 1144,395 1150,440" class="proc"/>
+<circle cx="976" cy="395" r="3" fill="#000"/>
+<circle cx="1012" cy="379" r="19" class="box"/>
+<polyline points="996,379 1028,379" class="thin"/>
+<text x="1012" y="375" class="t10 b" text-anchor="middle">TI</text>
+<text x="1012" y="391" class="t9" text-anchor="middle">1122A</text>
+<polyline points="976,395 995,387" class="thin"/>
+<circle cx="1088" cy="395" r="3" fill="#000"/>
+<circle cx="1124" cy="379" r="19" class="box"/>
+<polyline points="1108,379 1140,379" class="thin"/>
+<text x="1124" y="375" class="t10 b" text-anchor="middle">TI</text>
+<text x="1124" y="391" class="t9" text-anchor="middle">1122B</text>
+<polyline points="1088,395 1107,387" class="thin"/>
+<text x="906" y="504" class="t8" text-anchor="start">skin TCs at hot zone (peak flux)</text>
+<polyline points="1150,440 1330,440" class="proc"/>
+<circle cx="1205" cy="388" r="19" class="box"/>
+<polyline points="1189,388 1221,388" class="thin"/>
+<text x="1205" y="384" class="t10 b" text-anchor="middle">TT</text>
+<text x="1205" y="400" class="t10" text-anchor="middle">1112</text>
+<polyline points="1205,407 1205,440" class="thin"/>
+<polyline points="1240,440 1240,470" class="proc"/>
+<polyline points="1232,470 1248,470" class="proc"/>
+<text x="1244" y="484" class="t8" text-anchor="middle">pig receiver</text>
+<text x="1244" y="494" class="t8" text-anchor="middle">conn. (blinded)</text>
+<polygon points="1266,431 1284,449 1284,431 1266,449" class="box"/>
+<text x="1275" y="424" class="t9 b" text-anchor="middle">XV-1106B</text>
+<circle cx="1302" cy="434" r="5" class="box"/>
+<circle cx="1302" cy="446" r="5" fill="#000"/>
+<rect x="1186" y="497" width="38" height="38" rx="0" class="box"/>
+<circle cx="1205" cy="516" r="19" class="box"/>
+<polyline points="1186,516 1224,516" class="thin"/>
+<text x="1205" y="512" class="t10 b" text-anchor="middle">PDI</text>
+<text x="1205" y="528" class="t10" text-anchor="middle">1102</text>
+<text x="1227" y="516" class="t8" text-anchor="start">= PT-1102 − PT-1110</text>
+<text x="1227" y="526" class="t8" text-anchor="start">Hi 7.8 / HH 8.4 bar</text>
+<polyline points="200,625 637,625" class="proc"/>
+<text x="206" y="603" class="t8" text-anchor="start">6"-P-1103-A1</text>
+<polygon points="251,616 269,634 269,616 251,634" class="box"/>
+<polyline points="292,614 292,636" class="thin"/>
+<polyline points="298,614 298,636" class="thin"/>
+<circle cx="295" cy="563" r="19" class="box"/>
+<polyline points="279,563 311,563" class="thin"/>
+<text x="295" y="559" class="t10 b" text-anchor="middle">FT</text>
+<text x="295" y="575" class="t10" text-anchor="middle">1103</text>
+<polyline points="295,582 295,614" class="thin"/>
+<rect x="341" y="544" width="38" height="38" rx="0" class="box"/>
+<circle cx="360" cy="563" r="19" class="box"/>
+<polyline points="341,563 379,563" class="thin"/>
+<text x="360" y="559" class="t10 b" text-anchor="middle">FIC</text>
+<text x="360" y="575" class="t10" text-anchor="middle">1103</text>
+<polyline points="314,563 341,563" class="sig"/>
+<polygon points="351,616 369,634 369,616 351,634" class="box"/>
+<polyline points="360,625 360,605" class="thin"/>
+<path d="M349,605 A11,11 0 0,1 371,605 z" class="box"/>
+<polyline points="360,582 360,594" class="sig"/>
+<text x="360" y="649" class="t9 b" text-anchor="middle">FV-1103</text>
+<text x="360" y="660" class="t9" text-anchor="middle">FO</text>
+<polygon points="396,616 414,634 414,616 396,634" class="box"/>
+<polyline points="442,614 442,636" class="thin"/>
+<polyline points="448,614 448,636" class="thin"/>
+<circle cx="445" cy="563" r="19" class="box"/>
+<polyline points="429,563 461,563" class="thin"/>
+<text x="445" y="559" class="t10 b" text-anchor="middle">FT</text>
+<text x="445" y="575" class="t10" text-anchor="middle">1153</text>
+<polyline points="445,582 445,614" class="thin"/>
+<polyline points="464,563 480,563" class="sig"/>
+<text x="483" y="559" class="t8" text-anchor="start">to I-101</text>
+<text x="483" y="569" class="t8" text-anchor="start">LL 43 t/h</text>
+<circle cx="490" cy="677" r="19" class="box"/>
+<polyline points="474,677 506,677" class="thin"/>
+<text x="490" y="673" class="t10 b" text-anchor="middle">PT</text>
+<text x="490" y="689" class="t10" text-anchor="middle">1103</text>
+<polyline points="490,658 490,625" class="thin"/>
+<circle cx="518" cy="619" r="5" class="box"/>
+<circle cx="518" cy="631" r="5" fill="#000"/>
+<polygon points="536,616 554,634 554,616 536,634" class="box"/>
+<text x="545" y="609" class="t9 b" text-anchor="middle">XV-1105C</text>
+<polyline points="578,625 578,655" class="proc"/>
+<polyline points="570,655 586,655" class="proc"/>
+<text x="572" y="669" class="t8" text-anchor="middle">pig launcher</text>
+<text x="572" y="679" class="t8" text-anchor="middle">conn. (blinded)</text>
+<polyline points="637,625 637,583 659,667 681,583 703,667 725,583 747,667 769,583 768,625" class="proc"/>
+<text x="631" y="575" class="t10 b" text-anchor="start">PASS C</text>
+<polyline points="768,625 910,625" class="proc"/>
+<text x="796" y="617" class="t8" text-anchor="start">6"-P-1103-X</text>
+<circle cx="840" cy="677" r="19" class="box"/>
+<polyline points="824,677 856,677" class="thin"/>
+<text x="840" y="673" class="t10 b" text-anchor="middle">TT</text>
+<text x="840" y="689" class="t10" text-anchor="middle">1133</text>
+<polyline points="840,658 840,625" class="thin"/>
+<polyline points="910,625 920,580 948,670 976,580 1004,670 1032,580 1060,670 1088,580 1116,670 1144,580 1150,625" class="proc"/>
+<circle cx="976" cy="580" r="3" fill="#000"/>
+<circle cx="1012" cy="564" r="19" class="box"/>
+<polyline points="996,564 1028,564" class="thin"/>
+<text x="1012" y="560" class="t10 b" text-anchor="middle">TI</text>
+<text x="1012" y="576" class="t9" text-anchor="middle">1123A</text>
+<polyline points="976,580 995,572" class="thin"/>
+<circle cx="1088" cy="580" r="3" fill="#000"/>
+<circle cx="1124" cy="564" r="19" class="box"/>
+<polyline points="1108,564 1140,564" class="thin"/>
+<text x="1124" y="560" class="t10 b" text-anchor="middle">TI</text>
+<text x="1124" y="576" class="t9" text-anchor="middle">1123B</text>
+<polyline points="1088,580 1107,572" class="thin"/>
+<text x="906" y="689" class="t8" text-anchor="start">skin TCs at hot zone (peak flux)</text>
+<polyline points="1150,625 1330,625" class="proc"/>
+<circle cx="1205" cy="573" r="19" class="box"/>
+<polyline points="1189,573 1221,573" class="thin"/>
+<text x="1205" y="569" class="t10 b" text-anchor="middle">TT</text>
+<text x="1205" y="585" class="t10" text-anchor="middle">1113</text>
+<polyline points="1205,592 1205,625" class="thin"/>
+<polyline points="1240,625 1240,655" class="proc"/>
+<polyline points="1232,655 1248,655" class="proc"/>
+<text x="1244" y="669" class="t8" text-anchor="middle">pig receiver</text>
+<text x="1244" y="679" class="t8" text-anchor="middle">conn. (blinded)</text>
+<polygon points="1266,616 1284,634 1284,616 1266,634" class="box"/>
+<text x="1275" y="609" class="t9 b" text-anchor="middle">XV-1106C</text>
+<circle cx="1302" cy="619" r="5" class="box"/>
+<circle cx="1302" cy="631" r="5" fill="#000"/>
+<rect x="1186" y="682" width="38" height="38" rx="0" class="box"/>
+<circle cx="1205" cy="701" r="19" class="box"/>
+<polyline points="1186,701 1224,701" class="thin"/>
+<text x="1205" y="697" class="t10 b" text-anchor="middle">PDI</text>
+<text x="1205" y="713" class="t10" text-anchor="middle">1103</text>
+<text x="1227" y="701" class="t8" text-anchor="start">= PT-1103 − PT-1110</text>
+<text x="1227" y="711" class="t8" text-anchor="start">Hi 7.8 / HH 8.4 bar</text>
+<polyline points="200,810 637,810" class="proc"/>
+<text x="206" y="788" class="t8" text-anchor="start">6"-P-1104-A1</text>
+<polygon points="251,801 269,819 269,801 251,819" class="box"/>
+<polyline points="292,799 292,821" class="thin"/>
+<polyline points="298,799 298,821" class="thin"/>
+<circle cx="295" cy="748" r="19" class="box"/>
+<polyline points="279,748 311,748" class="thin"/>
+<text x="295" y="744" class="t10 b" text-anchor="middle">FT</text>
+<text x="295" y="760" class="t10" text-anchor="middle">1104</text>
+<polyline points="295,767 295,799" class="thin"/>
+<rect x="341" y="729" width="38" height="38" rx="0" class="box"/>
+<circle cx="360" cy="748" r="19" class="box"/>
+<polyline points="341,748 379,748" class="thin"/>
+<text x="360" y="744" class="t10 b" text-anchor="middle">FIC</text>
+<text x="360" y="760" class="t10" text-anchor="middle">1104</text>
+<polyline points="314,748 341,748" class="sig"/>
+<polygon points="351,801 369,819 369,801 351,819" class="box"/>
+<polyline points="360,810 360,790" class="thin"/>
+<path d="M349,790 A11,11 0 0,1 371,790 z" class="box"/>
+<polyline points="360,767 360,779" class="sig"/>
+<text x="360" y="834" class="t9 b" text-anchor="middle">FV-1104</text>
+<text x="360" y="845" class="t9" text-anchor="middle">FO</text>
+<polygon points="396,801 414,819 414,801 396,819" class="box"/>
+<polyline points="442,799 442,821" class="thin"/>
+<polyline points="448,799 448,821" class="thin"/>
+<circle cx="445" cy="748" r="19" class="box"/>
+<polyline points="429,748 461,748" class="thin"/>
+<text x="445" y="744" class="t10 b" text-anchor="middle">FT</text>
+<text x="445" y="760" class="t10" text-anchor="middle">1154</text>
+<polyline points="445,767 445,799" class="thin"/>
+<polyline points="464,748 480,748" class="sig"/>
+<text x="483" y="744" class="t8" text-anchor="start">to I-101</text>
+<text x="483" y="754" class="t8" text-anchor="start">LL 43 t/h</text>
+<circle cx="490" cy="862" r="19" class="box"/>
+<polyline points="474,862 506,862" class="thin"/>
+<text x="490" y="858" class="t10 b" text-anchor="middle">PT</text>
+<text x="490" y="874" class="t10" text-anchor="middle">1104</text>
+<polyline points="490,843 490,810" class="thin"/>
+<circle cx="518" cy="804" r="5" class="box"/>
+<circle cx="518" cy="816" r="5" fill="#000"/>
+<polygon points="536,801 554,819 554,801 536,819" class="box"/>
+<text x="545" y="794" class="t9 b" text-anchor="middle">XV-1105D</text>
+<polyline points="578,810 578,840" class="proc"/>
+<polyline points="570,840 586,840" class="proc"/>
+<text x="572" y="854" class="t8" text-anchor="middle">pig launcher</text>
+<text x="572" y="864" class="t8" text-anchor="middle">conn. (blinded)</text>
+<polyline points="637,810 637,768 659,852 681,768 703,852 725,768 747,852 769,768 768,810" class="proc"/>
+<text x="631" y="760" class="t10 b" text-anchor="start">PASS D</text>
+<polyline points="768,810 910,810" class="proc"/>
+<text x="796" y="802" class="t8" text-anchor="start">6"-P-1104-X</text>
+<circle cx="840" cy="862" r="19" class="box"/>
+<polyline points="824,862 856,862" class="thin"/>
+<text x="840" y="858" class="t10 b" text-anchor="middle">TT</text>
+<text x="840" y="874" class="t10" text-anchor="middle">1134</text>
+<polyline points="840,843 840,810" class="thin"/>
+<polyline points="910,810 920,765 948,855 976,765 1004,855 1032,765 1060,855 1088,765 1116,855 1144,765 1150,810" class="proc"/>
+<circle cx="976" cy="765" r="3" fill="#000"/>
+<circle cx="1012" cy="749" r="19" class="box"/>
+<polyline points="996,749 1028,749" class="thin"/>
+<text x="1012" y="745" class="t10 b" text-anchor="middle">TI</text>
+<text x="1012" y="761" class="t9" text-anchor="middle">1124A</text>
+<polyline points="976,765 995,757" class="thin"/>
+<circle cx="1088" cy="765" r="3" fill="#000"/>
+<circle cx="1124" cy="749" r="19" class="box"/>
+<polyline points="1108,749 1140,749" class="thin"/>
+<text x="1124" y="745" class="t10 b" text-anchor="middle">TI</text>
+<text x="1124" y="761" class="t9" text-anchor="middle">1124B</text>
+<polyline points="1088,765 1107,757" class="thin"/>
+<text x="906" y="874" class="t8" text-anchor="start">skin TCs at hot zone (peak flux)</text>
+<polyline points="1150,810 1330,810" class="proc"/>
+<circle cx="1205" cy="758" r="19" class="box"/>
+<polyline points="1189,758 1221,758" class="thin"/>
+<text x="1205" y="754" class="t10 b" text-anchor="middle">TT</text>
+<text x="1205" y="770" class="t10" text-anchor="middle">1114</text>
+<polyline points="1205,777 1205,810" class="thin"/>
+<polyline points="1240,810 1240,840" class="proc"/>
+<polyline points="1232,840 1248,840" class="proc"/>
+<text x="1244" y="854" class="t8" text-anchor="middle">pig receiver</text>
+<text x="1244" y="864" class="t8" text-anchor="middle">conn. (blinded)</text>
+<polygon points="1266,801 1284,819 1284,801 1266,819" class="box"/>
+<text x="1275" y="794" class="t9 b" text-anchor="middle">XV-1106D</text>
+<circle cx="1302" cy="804" r="5" class="box"/>
+<circle cx="1302" cy="816" r="5" fill="#000"/>
+<rect x="1186" y="867" width="38" height="38" rx="0" class="box"/>
+<circle cx="1205" cy="886" r="19" class="box"/>
+<polyline points="1186,886 1224,886" class="thin"/>
+<text x="1205" y="882" class="t10 b" text-anchor="middle">PDI</text>
+<text x="1205" y="898" class="t10" text-anchor="middle">1104</text>
+<text x="1227" y="886" class="t8" text-anchor="start">= PT-1104 − PT-1110</text>
+<text x="1227" y="896" class="t8" text-anchor="start">Hi 7.8 / HH 8.4 bar</text>
+<polyline points="1330,255 1330,970 1450,970" class="proc"/>
+<text x="1338" y="992" class="t9" text-anchor="start">20"-P-1110-A2 transfer line</text>
+<polygon points="1450,957.0 1606,957.0 1620,970 1606,983.0 1450,983.0" class="box"/>
+<text x="1456" y="969" class="t9 b" text-anchor="start">TO C-101 FLASH ZONE</text>
+<text x="1456" y="980" class="t8" text-anchor="start">atmospheric column</text>
+<circle cx="1375" cy="970" r="3" fill="#000"/>
+<rect x="1356" y="896" width="38" height="38" rx="0" class="box"/>
+<circle cx="1375" cy="915" r="19" class="box"/>
+<polyline points="1356,915 1394,915" class="thin"/>
+<text x="1375" y="911" class="t10 b" text-anchor="middle">TIC</text>
+<text x="1375" y="927" class="t10" text-anchor="middle">1110</text>
+<polyline points="1375,934 1375,970" class="thin"/>
+<polyline points="1394,915 1410,915 1410,880" class="sig"/>
+<polygon points="1400,854.0 1546,854.0 1560,867 1546,880.0 1400,880.0" class="box"/>
+<text x="1406" y="866" class="t9 b" text-anchor="start">TO PIC-1202</text>
+<text x="1406" y="877" class="t8" text-anchor="start">U100-PID-102 (remote SP)</text>
+<circle cx="1425" cy="970" r="3" fill="#000"/>
+<circle cx="1440" cy="925" r="19" class="box"/>
+<polyline points="1424,925 1456,925" class="thin"/>
+<text x="1440" y="921" class="t10 b" text-anchor="middle">PT</text>
+<text x="1440" y="937" class="t10" text-anchor="middle">1110</text>
+<polyline points="1430,941 1425,970" class="thin"/>
+<rect x="1231" y="966" width="38" height="38" rx="0" class="box"/>
+<circle cx="1250" cy="985" r="19" class="box"/>
+<polyline points="1231,985 1269,985" class="thin"/>
+<text x="1250" y="981" class="t10 b" text-anchor="middle">TDA</text>
+<text x="1250" y="997" class="t9" text-anchor="middle">1111-14</text>
+<text x="1212" y="1004" class="t8" text-anchor="end">pass outlet deviation ±6 °C</text>
+<rect x="1420" y="60" width="240" height="535" rx="0" class="box"/>
+<rect x="1420" y="60" width="240" height="20" rx="0" class="hdr"/>
+<text x="1428" y="75" class="t10 b" text-anchor="start">LEGEND (ISA-5.1 style)</text>
+<polyline points="1432,100 1482,100" class="proc"/>
+<text x="1492" y="104" class="t9" text-anchor="start">Process line (crude)</text>
+<polyline points="1432,120 1482,120" class="fuel"/>
+<text x="1492" y="124" class="t9" text-anchor="start">Fuel gas line</text>
+<polyline points="1432,140 1482,140" class="util"/>
+<text x="1492" y="144" class="t9" text-anchor="start">Utility line (steam, air)</text>
+<polyline points="1432,160 1482,160" class="sig"/>
+<text x="1492" y="164" class="t9" text-anchor="start">Electrical / DCS signal</text>
+<polyline points="1432,180 1482,180" class="flue"/>
+<text x="1492" y="184" class="t9" text-anchor="start">Flue gas path</text>
+<circle cx="1452" cy="214" r="17" class="box"/>
+<polyline points="1438,214 1466,214" class="thin"/>
+<text x="1452" y="210" class="t10 b" text-anchor="middle">TT</text>
+<text x="1452" y="226" class="t10" text-anchor="middle">xxxx</text>
+<text x="1480" y="218" class="t9" text-anchor="start">Field instrument</text>
+<rect x="1435" y="239" width="34" height="34" rx="0" class="box"/>
+<circle cx="1452" cy="256" r="17" class="box"/>
+<polyline points="1435,256 1469,256" class="thin"/>
+<text x="1452" y="252" class="t10 b" text-anchor="middle">TIC</text>
+<text x="1452" y="268" class="t10" text-anchor="middle">xxxx</text>
+<text x="1480" y="260" class="t9" text-anchor="start">DCS function (shared display)</text>
+<rect x="1435" y="281" width="34" height="34" rx="0" class="box"/>
+<polygon points="1452,281 1469,298 1452,315 1435,298" class="box"/>
+<polyline points="1438,298 1466,298" class="thin"/>
+<text x="1452" y="294" class="t10 b" text-anchor="middle">I</text>
+<text x="1452" y="310" class="t10" text-anchor="middle">101</text>
+<text x="1480" y="302" class="t9" text-anchor="start">SIS / BMS interlock</text>
+<polygon points="1443,325 1461,343 1461,325 1443,343" class="box"/>
+<text x="1480" y="338" class="t9" text-anchor="start">Gate / block valve</text>
+<polygon points="1443,367 1461,385 1461,367 1443,385" class="box"/>
+<polyline points="1452,376 1452,356" class="thin"/>
+<path d="M1441,356 A11,11 0 0,1 1463,356 z" class="box"/>
+<text x="1480" y="370" class="t9" text-anchor="start">Control valve, diaphragm actuator</text>
+<polygon points="1443,405 1461,423 1461,405 1443,423" class="box"/>
+<polyline points="1452,414 1452,396" class="thin"/>
+<rect x="1444" y="380" width="16" height="16" rx="0" class="box"/>
+<text x="1452" y="392" class="t9" text-anchor="middle">S</text>
+<text x="1480" y="408" class="t9" text-anchor="start">On/off shutdown valve (solenoid)</text>
+<polyline points="1432,434 1472,434" class="proc"/>
+<polyline points="1449,423 1449,445" class="thin"/>
+<polyline points="1455,423 1455,445" class="thin"/>
+<text x="1480" y="438" class="t9" text-anchor="start">Flow element (orifice)</text>
+<circle cx="1452" cy="454" r="5" class="box"/>
+<circle cx="1452" cy="466" r="5" fill="#000"/>
+<text x="1480" y="464" class="t9" text-anchor="start">Spectacle blind</text>
+<polygon points="1452,475 1465,486 1452,497 1439,486" class="box"/>
+<text x="1452" y="490" class="t9 b" text-anchor="middle">1</text>
+<text x="1480" y="490" class="t9" text-anchor="start">Stream number (PFD)</text>
+<text x="1432" y="512" class="t9" text-anchor="start">FO / FC = fail open / fail closed</text>
+<text x="1432" y="526" class="t9" text-anchor="start">Letters: F flow, P pressure, T temp, A analysis,</text>
+<text x="1432" y="538" class="t9" text-anchor="start">L level, Z position, B burner/flame, H hand;</text>
+<text x="1432" y="550" class="t9" text-anchor="start">I indicate, C control, T transmit, Y compute,</text>
+<text x="1432" y="562" class="t9" text-anchor="start">D(I) differential, DA deviation alarm.</text>
+<rect x="30" y="1012" width="1068" height="160" rx="0" class="box"/>
+<text x="40" y="1030" class="t10 b" text-anchor="start">NOTES</text>
+<text x="40" y="1048" class="t9" text-anchor="start">1. Pass flow valves FV-1101..1104 fail OPEN; no bypass around pass FVs (prevents unmeasured low flow).</text>
+<text x="40" y="1063" class="t9" text-anchor="start">2. FT-1151..1154 are independent SIS transmitters (separate taps); LL 43 t/h (60 %) trips main fuel via I-101.</text>
+<text x="40" y="1078" class="t9" text-anchor="start">3. Skin TCs TI-1121A..1124B: knife-edge pad welded, 2 per pass at the predicted peak-flux / hottest tube.</text>
+<text x="40" y="1093" class="t9" text-anchor="start">   TMT Hi 585 °C, limit 600 °C (alarm + IOW, not a trip). SOR hottest tube ≈ 430 °C.</text>
+<text x="40" y="1108" class="t9" text-anchor="start">4. PDI-1101..1104 are DCS calculations (pass inlet PT minus common outlet PT-1110). Clean SOR ≈ 6.0 bar.</text>
+<text x="40" y="1123" class="t9" text-anchor="start">5. XV-1105A–D / XV-1106A–D manual isolation + spectacle blinds for mechanical pigging; launcher/receiver</text>
+<text x="40" y="1138" class="t9" text-anchor="start">   connections blinded in normal operation. Crossovers external for pigging access.</text>
+<text x="40" y="1153" class="t9" text-anchor="start">6. Combustion, fuel gas, burners and BMS on U100-PID-102; APH, FD/ID fans on U100-PID-103. Values per tag_register.csv.</text></svg>
